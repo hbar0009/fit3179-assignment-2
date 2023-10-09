@@ -1,0 +1,721 @@
+id,key,value,Local Council Area,Room Type,Price,Rating,Bedrooms,Beds,Bathrooms,Minimum Nights
+0,price,209.82,Banyule,Entire home/apt,209.82,3.37,1.74,2.02,1.05,6.45
+1,rating,3.37,Banyule,Entire home/apt,209.82,3.37,1.74,2.02,1.05,6.45
+2,bedrooms,1.74,Banyule,Entire home/apt,209.82,3.37,1.74,2.02,1.05,6.45
+3,beds,2.02,Banyule,Entire home/apt,209.82,3.37,1.74,2.02,1.05,6.45
+4,bathrooms,1.05,Banyule,Entire home/apt,209.82,3.37,1.74,2.02,1.05,6.45
+5,minimum_nights,6.45,Banyule,Entire home/apt,209.82,3.37,1.74,2.02,1.05,6.45
+6,price,432.53,Bayside,Entire home/apt,432.53,2.82,1.88,2.25,1.11,4.92
+7,rating,2.82,Bayside,Entire home/apt,432.53,2.82,1.88,2.25,1.11,4.92
+8,bedrooms,1.88,Bayside,Entire home/apt,432.53,2.82,1.88,2.25,1.11,4.92
+9,beds,2.25,Bayside,Entire home/apt,432.53,2.82,1.88,2.25,1.11,4.92
+10,bathrooms,1.11,Bayside,Entire home/apt,432.53,2.82,1.88,2.25,1.11,4.92
+11,minimum_nights,4.92,Bayside,Entire home/apt,432.53,2.82,1.88,2.25,1.11,4.92
+12,price,265.28,Boroondara,Entire home/apt,265.28,3.0,1.84,2.22,1.08,7.45
+13,rating,3.0,Boroondara,Entire home/apt,265.28,3.0,1.84,2.22,1.08,7.45
+14,bedrooms,1.84,Boroondara,Entire home/apt,265.28,3.0,1.84,2.22,1.08,7.45
+15,beds,2.22,Boroondara,Entire home/apt,265.28,3.0,1.84,2.22,1.08,7.45
+16,bathrooms,1.08,Boroondara,Entire home/apt,265.28,3.0,1.84,2.22,1.08,7.45
+17,minimum_nights,7.45,Boroondara,Entire home/apt,265.28,3.0,1.84,2.22,1.08,7.45
+18,price,199.3,Brimbank,Entire home/apt,199.3,3.28,2.32,3.47,1.3,2.61
+19,rating,3.28,Brimbank,Entire home/apt,199.3,3.28,2.32,3.47,1.3,2.61
+20,bedrooms,2.32,Brimbank,Entire home/apt,199.3,3.28,2.32,3.47,1.3,2.61
+21,beds,3.47,Brimbank,Entire home/apt,199.3,3.28,2.32,3.47,1.3,2.61
+22,bathrooms,1.3,Brimbank,Entire home/apt,199.3,3.28,2.32,3.47,1.3,2.61
+23,minimum_nights,2.61,Brimbank,Entire home/apt,199.3,3.28,2.32,3.47,1.3,2.61
+24,price,301.59,Cardinia,Entire home/apt,301.59,3.84,2.18,2.86,1.27,2.4
+25,rating,3.84,Cardinia,Entire home/apt,301.59,3.84,2.18,2.86,1.27,2.4
+26,bedrooms,2.18,Cardinia,Entire home/apt,301.59,3.84,2.18,2.86,1.27,2.4
+27,beds,2.86,Cardinia,Entire home/apt,301.59,3.84,2.18,2.86,1.27,2.4
+28,bathrooms,1.27,Cardinia,Entire home/apt,301.59,3.84,2.18,2.86,1.27,2.4
+29,minimum_nights,2.4,Cardinia,Entire home/apt,301.59,3.84,2.18,2.86,1.27,2.4
+30,price,260.66,Casey,Entire home/apt,260.66,2.92,2.83,3.33,1.42,2.47
+31,rating,2.92,Casey,Entire home/apt,260.66,2.92,2.83,3.33,1.42,2.47
+32,bedrooms,2.83,Casey,Entire home/apt,260.66,2.92,2.83,3.33,1.42,2.47
+33,beds,3.33,Casey,Entire home/apt,260.66,2.92,2.83,3.33,1.42,2.47
+34,bathrooms,1.42,Casey,Entire home/apt,260.66,2.92,2.83,3.33,1.42,2.47
+35,minimum_nights,2.47,Casey,Entire home/apt,260.66,2.92,2.83,3.33,1.42,2.47
+36,price,219.72,Darebin,Entire home/apt,219.72,3.18,1.61,1.91,0.93,5.4
+37,rating,3.18,Darebin,Entire home/apt,219.72,3.18,1.61,1.91,0.93,5.4
+38,bedrooms,1.61,Darebin,Entire home/apt,219.72,3.18,1.61,1.91,0.93,5.4
+39,beds,1.91,Darebin,Entire home/apt,219.72,3.18,1.61,1.91,0.93,5.4
+40,bathrooms,0.93,Darebin,Entire home/apt,219.72,3.18,1.61,1.91,0.93,5.4
+41,minimum_nights,5.4,Darebin,Entire home/apt,219.72,3.18,1.61,1.91,0.93,5.4
+42,price,310.42,Frankston,Entire home/apt,310.42,3.31,1.94,2.47,1.11,2.87
+43,rating,3.31,Frankston,Entire home/apt,310.42,3.31,1.94,2.47,1.11,2.87
+44,bedrooms,1.94,Frankston,Entire home/apt,310.42,3.31,1.94,2.47,1.11,2.87
+45,beds,2.47,Frankston,Entire home/apt,310.42,3.31,1.94,2.47,1.11,2.87
+46,bathrooms,1.11,Frankston,Entire home/apt,310.42,3.31,1.94,2.47,1.11,2.87
+47,minimum_nights,2.87,Frankston,Entire home/apt,310.42,3.31,1.94,2.47,1.11,2.87
+48,price,241.21,Glen Eira,Entire home/apt,241.21,2.68,1.7,2.08,0.97,6.03
+49,rating,2.68,Glen Eira,Entire home/apt,241.21,2.68,1.7,2.08,0.97,6.03
+50,bedrooms,1.7,Glen Eira,Entire home/apt,241.21,2.68,1.7,2.08,0.97,6.03
+51,beds,2.08,Glen Eira,Entire home/apt,241.21,2.68,1.7,2.08,0.97,6.03
+52,bathrooms,0.97,Glen Eira,Entire home/apt,241.21,2.68,1.7,2.08,0.97,6.03
+53,minimum_nights,6.03,Glen Eira,Entire home/apt,241.21,2.68,1.7,2.08,0.97,6.03
+54,price,276.26,Greater Dandenong,Entire home/apt,276.26,2.78,2.19,2.81,1.19,2.27
+55,rating,2.78,Greater Dandenong,Entire home/apt,276.26,2.78,2.19,2.81,1.19,2.27
+56,bedrooms,2.19,Greater Dandenong,Entire home/apt,276.26,2.78,2.19,2.81,1.19,2.27
+57,beds,2.81,Greater Dandenong,Entire home/apt,276.26,2.78,2.19,2.81,1.19,2.27
+58,bathrooms,1.19,Greater Dandenong,Entire home/apt,276.26,2.78,2.19,2.81,1.19,2.27
+59,minimum_nights,2.27,Greater Dandenong,Entire home/apt,276.26,2.78,2.19,2.81,1.19,2.27
+60,price,211.3,Hobsons Bay,Entire home/apt,211.3,3.22,1.75,2.1,1.04,3.83
+61,rating,3.22,Hobsons Bay,Entire home/apt,211.3,3.22,1.75,2.1,1.04,3.83
+62,bedrooms,1.75,Hobsons Bay,Entire home/apt,211.3,3.22,1.75,2.1,1.04,3.83
+63,beds,2.1,Hobsons Bay,Entire home/apt,211.3,3.22,1.75,2.1,1.04,3.83
+64,bathrooms,1.04,Hobsons Bay,Entire home/apt,211.3,3.22,1.75,2.1,1.04,3.83
+65,minimum_nights,3.83,Hobsons Bay,Entire home/apt,211.3,3.22,1.75,2.1,1.04,3.83
+66,price,250.59,Hume,Entire home/apt,250.59,3.35,2.66,3.3,1.53,6.05
+67,rating,3.35,Hume,Entire home/apt,250.59,3.35,2.66,3.3,1.53,6.05
+68,bedrooms,2.66,Hume,Entire home/apt,250.59,3.35,2.66,3.3,1.53,6.05
+69,beds,3.3,Hume,Entire home/apt,250.59,3.35,2.66,3.3,1.53,6.05
+70,bathrooms,1.53,Hume,Entire home/apt,250.59,3.35,2.66,3.3,1.53,6.05
+71,minimum_nights,6.05,Hume,Entire home/apt,250.59,3.35,2.66,3.3,1.53,6.05
+72,price,315.88,Kingston,Entire home/apt,315.88,2.95,2.07,2.57,1.23,6.59
+73,rating,2.95,Kingston,Entire home/apt,315.88,2.95,2.07,2.57,1.23,6.59
+74,bedrooms,2.07,Kingston,Entire home/apt,315.88,2.95,2.07,2.57,1.23,6.59
+75,beds,2.57,Kingston,Entire home/apt,315.88,2.95,2.07,2.57,1.23,6.59
+76,bathrooms,1.23,Kingston,Entire home/apt,315.88,2.95,2.07,2.57,1.23,6.59
+77,minimum_nights,6.59,Kingston,Entire home/apt,315.88,2.95,2.07,2.57,1.23,6.59
+78,price,257.23,Knox,Entire home/apt,257.23,3.33,2.26,2.81,1.31,3.32
+79,rating,3.33,Knox,Entire home/apt,257.23,3.33,2.26,2.81,1.31,3.32
+80,bedrooms,2.26,Knox,Entire home/apt,257.23,3.33,2.26,2.81,1.31,3.32
+81,beds,2.81,Knox,Entire home/apt,257.23,3.33,2.26,2.81,1.31,3.32
+82,bathrooms,1.31,Knox,Entire home/apt,257.23,3.33,2.26,2.81,1.31,3.32
+83,minimum_nights,3.32,Knox,Entire home/apt,257.23,3.33,2.26,2.81,1.31,3.32
+84,price,538.07,Manningham,Entire home/apt,538.07,3.18,2.28,2.91,1.58,3.3
+85,rating,3.18,Manningham,Entire home/apt,538.07,3.18,2.28,2.91,1.58,3.3
+86,bedrooms,2.28,Manningham,Entire home/apt,538.07,3.18,2.28,2.91,1.58,3.3
+87,beds,2.91,Manningham,Entire home/apt,538.07,3.18,2.28,2.91,1.58,3.3
+88,bathrooms,1.58,Manningham,Entire home/apt,538.07,3.18,2.28,2.91,1.58,3.3
+89,minimum_nights,3.3,Manningham,Entire home/apt,538.07,3.18,2.28,2.91,1.58,3.3
+90,price,197.01,Maribyrnong,Entire home/apt,197.01,3.18,1.99,2.69,1.19,3.86
+91,rating,3.18,Maribyrnong,Entire home/apt,197.01,3.18,1.99,2.69,1.19,3.86
+92,bedrooms,1.99,Maribyrnong,Entire home/apt,197.01,3.18,1.99,2.69,1.19,3.86
+93,beds,2.69,Maribyrnong,Entire home/apt,197.01,3.18,1.99,2.69,1.19,3.86
+94,bathrooms,1.19,Maribyrnong,Entire home/apt,197.01,3.18,1.99,2.69,1.19,3.86
+95,minimum_nights,3.86,Maribyrnong,Entire home/apt,197.01,3.18,1.99,2.69,1.19,3.86
+96,price,195.04,Maroondah,Entire home/apt,195.04,3.32,2.14,2.65,1.19,3.95
+97,rating,3.32,Maroondah,Entire home/apt,195.04,3.32,2.14,2.65,1.19,3.95
+98,bedrooms,2.14,Maroondah,Entire home/apt,195.04,3.32,2.14,2.65,1.19,3.95
+99,beds,2.65,Maroondah,Entire home/apt,195.04,3.32,2.14,2.65,1.19,3.95
+100,bathrooms,1.19,Maroondah,Entire home/apt,195.04,3.32,2.14,2.65,1.19,3.95
+101,minimum_nights,3.95,Maroondah,Entire home/apt,195.04,3.32,2.14,2.65,1.19,3.95
+102,price,238.65,Melbourne,Entire home/apt,238.65,3.48,1.6,2.08,1.12,5.74
+103,rating,3.48,Melbourne,Entire home/apt,238.65,3.48,1.6,2.08,1.12,5.74
+104,bedrooms,1.6,Melbourne,Entire home/apt,238.65,3.48,1.6,2.08,1.12,5.74
+105,beds,2.08,Melbourne,Entire home/apt,238.65,3.48,1.6,2.08,1.12,5.74
+106,bathrooms,1.12,Melbourne,Entire home/apt,238.65,3.48,1.6,2.08,1.12,5.74
+107,minimum_nights,5.74,Melbourne,Entire home/apt,238.65,3.48,1.6,2.08,1.12,5.74
+108,price,266.84,Melton,Entire home/apt,266.84,2.96,2.09,2.56,1.19,6.49
+109,rating,2.96,Melton,Entire home/apt,266.84,2.96,2.09,2.56,1.19,6.49
+110,bedrooms,2.09,Melton,Entire home/apt,266.84,2.96,2.09,2.56,1.19,6.49
+111,beds,2.56,Melton,Entire home/apt,266.84,2.96,2.09,2.56,1.19,6.49
+112,bathrooms,1.19,Melton,Entire home/apt,266.84,2.96,2.09,2.56,1.19,6.49
+113,minimum_nights,6.49,Melton,Entire home/apt,266.84,2.96,2.09,2.56,1.19,6.49
+114,price,241.96,Monash,Entire home/apt,241.96,3.0,2.2,2.71,1.37,6.08
+115,rating,3.0,Monash,Entire home/apt,241.96,3.0,2.2,2.71,1.37,6.08
+116,bedrooms,2.2,Monash,Entire home/apt,241.96,3.0,2.2,2.71,1.37,6.08
+117,beds,2.71,Monash,Entire home/apt,241.96,3.0,2.2,2.71,1.37,6.08
+118,bathrooms,1.37,Monash,Entire home/apt,241.96,3.0,2.2,2.71,1.37,6.08
+119,minimum_nights,6.08,Monash,Entire home/apt,241.96,3.0,2.2,2.71,1.37,6.08
+120,price,232.1,Moonee Valley,Entire home/apt,232.1,3.07,1.71,1.99,1.05,7.79
+121,rating,3.07,Moonee Valley,Entire home/apt,232.1,3.07,1.71,1.99,1.05,7.79
+122,bedrooms,1.71,Moonee Valley,Entire home/apt,232.1,3.07,1.71,1.99,1.05,7.79
+123,beds,1.99,Moonee Valley,Entire home/apt,232.1,3.07,1.71,1.99,1.05,7.79
+124,bathrooms,1.05,Moonee Valley,Entire home/apt,232.1,3.07,1.71,1.99,1.05,7.79
+125,minimum_nights,7.79,Moonee Valley,Entire home/apt,232.1,3.07,1.71,1.99,1.05,7.79
+126,price,187.64,Moreland,Entire home/apt,187.64,3.36,1.64,1.9,1.01,5.52
+127,rating,3.36,Moreland,Entire home/apt,187.64,3.36,1.64,1.9,1.01,5.52
+128,bedrooms,1.64,Moreland,Entire home/apt,187.64,3.36,1.64,1.9,1.01,5.52
+129,beds,1.9,Moreland,Entire home/apt,187.64,3.36,1.64,1.9,1.01,5.52
+130,bathrooms,1.01,Moreland,Entire home/apt,187.64,3.36,1.64,1.9,1.01,5.52
+131,minimum_nights,5.52,Moreland,Entire home/apt,187.64,3.36,1.64,1.9,1.01,5.52
+132,price,280.15,Nillumbik,Entire home/apt,280.15,3.78,1.93,2.59,1.13,2.18
+133,rating,3.78,Nillumbik,Entire home/apt,280.15,3.78,1.93,2.59,1.13,2.18
+134,bedrooms,1.93,Nillumbik,Entire home/apt,280.15,3.78,1.93,2.59,1.13,2.18
+135,beds,2.59,Nillumbik,Entire home/apt,280.15,3.78,1.93,2.59,1.13,2.18
+136,bathrooms,1.13,Nillumbik,Entire home/apt,280.15,3.78,1.93,2.59,1.13,2.18
+137,minimum_nights,2.18,Nillumbik,Entire home/apt,280.15,3.78,1.93,2.59,1.13,2.18
+138,price,317.99,Port Phillip,Entire home/apt,317.99,3.15,1.49,1.75,0.92,4.91
+139,rating,3.15,Port Phillip,Entire home/apt,317.99,3.15,1.49,1.75,0.92,4.91
+140,bedrooms,1.49,Port Phillip,Entire home/apt,317.99,3.15,1.49,1.75,0.92,4.91
+141,beds,1.75,Port Phillip,Entire home/apt,317.99,3.15,1.49,1.75,0.92,4.91
+142,bathrooms,0.92,Port Phillip,Entire home/apt,317.99,3.15,1.49,1.75,0.92,4.91
+143,minimum_nights,4.91,Port Phillip,Entire home/apt,317.99,3.15,1.49,1.75,0.92,4.91
+144,price,264.9,Stonnington,Entire home/apt,264.9,3.14,1.44,1.65,0.9,5.61
+145,rating,3.14,Stonnington,Entire home/apt,264.9,3.14,1.44,1.65,0.9,5.61
+146,bedrooms,1.44,Stonnington,Entire home/apt,264.9,3.14,1.44,1.65,0.9,5.61
+147,beds,1.65,Stonnington,Entire home/apt,264.9,3.14,1.44,1.65,0.9,5.61
+148,bathrooms,0.9,Stonnington,Entire home/apt,264.9,3.14,1.44,1.65,0.9,5.61
+149,minimum_nights,5.61,Stonnington,Entire home/apt,264.9,3.14,1.44,1.65,0.9,5.61
+150,price,190.78,Whitehorse,Entire home/apt,190.78,3.24,1.96,2.38,1.27,6.32
+151,rating,3.24,Whitehorse,Entire home/apt,190.78,3.24,1.96,2.38,1.27,6.32
+152,bedrooms,1.96,Whitehorse,Entire home/apt,190.78,3.24,1.96,2.38,1.27,6.32
+153,beds,2.38,Whitehorse,Entire home/apt,190.78,3.24,1.96,2.38,1.27,6.32
+154,bathrooms,1.27,Whitehorse,Entire home/apt,190.78,3.24,1.96,2.38,1.27,6.32
+155,minimum_nights,6.32,Whitehorse,Entire home/apt,190.78,3.24,1.96,2.38,1.27,6.32
+156,price,234.73,Whittlesea,Entire home/apt,234.73,3.18,2.59,3.29,1.42,6.66
+157,rating,3.18,Whittlesea,Entire home/apt,234.73,3.18,2.59,3.29,1.42,6.66
+158,bedrooms,2.59,Whittlesea,Entire home/apt,234.73,3.18,2.59,3.29,1.42,6.66
+159,beds,3.29,Whittlesea,Entire home/apt,234.73,3.18,2.59,3.29,1.42,6.66
+160,bathrooms,1.42,Whittlesea,Entire home/apt,234.73,3.18,2.59,3.29,1.42,6.66
+161,minimum_nights,6.66,Whittlesea,Entire home/apt,234.73,3.18,2.59,3.29,1.42,6.66
+162,price,247.04,Wyndham,Entire home/apt,247.04,3.11,3.01,3.74,1.58,3.64
+163,rating,3.11,Wyndham,Entire home/apt,247.04,3.11,3.01,3.74,1.58,3.64
+164,bedrooms,3.01,Wyndham,Entire home/apt,247.04,3.11,3.01,3.74,1.58,3.64
+165,beds,3.74,Wyndham,Entire home/apt,247.04,3.11,3.01,3.74,1.58,3.64
+166,bathrooms,1.58,Wyndham,Entire home/apt,247.04,3.11,3.01,3.74,1.58,3.64
+167,minimum_nights,3.64,Wyndham,Entire home/apt,247.04,3.11,3.01,3.74,1.58,3.64
+168,price,223.93,Yarra,Entire home/apt,223.93,3.54,1.56,1.77,1.02,5.6
+169,rating,3.54,Yarra,Entire home/apt,223.93,3.54,1.56,1.77,1.02,5.6
+170,bedrooms,1.56,Yarra,Entire home/apt,223.93,3.54,1.56,1.77,1.02,5.6
+171,beds,1.77,Yarra,Entire home/apt,223.93,3.54,1.56,1.77,1.02,5.6
+172,bathrooms,1.02,Yarra,Entire home/apt,223.93,3.54,1.56,1.77,1.02,5.6
+173,minimum_nights,5.6,Yarra,Entire home/apt,223.93,3.54,1.56,1.77,1.02,5.6
+174,price,350.87,Yarra Ranges,Entire home/apt,350.87,4.18,2.19,2.79,1.4,2.19
+175,rating,4.18,Yarra Ranges,Entire home/apt,350.87,4.18,2.19,2.79,1.4,2.19
+176,bedrooms,2.19,Yarra Ranges,Entire home/apt,350.87,4.18,2.19,2.79,1.4,2.19
+177,beds,2.79,Yarra Ranges,Entire home/apt,350.87,4.18,2.19,2.79,1.4,2.19
+178,bathrooms,1.4,Yarra Ranges,Entire home/apt,350.87,4.18,2.19,2.79,1.4,2.19
+179,minimum_nights,2.19,Yarra Ranges,Entire home/apt,350.87,4.18,2.19,2.79,1.4,2.19
+180,price,63.15,Banyule,Private room,63.15,2.62,1.06,1.1,0.69,3.01
+181,rating,2.62,Banyule,Private room,63.15,2.62,1.06,1.1,0.69,3.01
+182,bedrooms,1.06,Banyule,Private room,63.15,2.62,1.06,1.1,0.69,3.01
+183,beds,1.1,Banyule,Private room,63.15,2.62,1.06,1.1,0.69,3.01
+184,bathrooms,0.69,Banyule,Private room,63.15,2.62,1.06,1.1,0.69,3.01
+185,minimum_nights,3.01,Banyule,Private room,63.15,2.62,1.06,1.1,0.69,3.01
+186,price,164.81,Bayside,Private room,164.81,2.85,1.1,1.04,0.7,3.1
+187,rating,2.85,Bayside,Private room,164.81,2.85,1.1,1.04,0.7,3.1
+188,bedrooms,1.1,Bayside,Private room,164.81,2.85,1.1,1.04,0.7,3.1
+189,beds,1.04,Bayside,Private room,164.81,2.85,1.1,1.04,0.7,3.1
+190,bathrooms,0.7,Bayside,Private room,164.81,2.85,1.1,1.04,0.7,3.1
+191,minimum_nights,3.1,Bayside,Private room,164.81,2.85,1.1,1.04,0.7,3.1
+192,price,605.34,Boroondara,Private room,605.34,2.05,1.07,0.98,0.55,4.29
+193,rating,2.05,Boroondara,Private room,605.34,2.05,1.07,0.98,0.55,4.29
+194,bedrooms,1.07,Boroondara,Private room,605.34,2.05,1.07,0.98,0.55,4.29
+195,beds,0.98,Boroondara,Private room,605.34,2.05,1.07,0.98,0.55,4.29
+196,bathrooms,0.55,Boroondara,Private room,605.34,2.05,1.07,0.98,0.55,4.29
+197,minimum_nights,4.29,Boroondara,Private room,605.34,2.05,1.07,0.98,0.55,4.29
+198,price,74.9,Brimbank,Private room,74.9,2.18,1.04,1.18,0.72,3.74
+199,rating,2.18,Brimbank,Private room,74.9,2.18,1.04,1.18,0.72,3.74
+200,bedrooms,1.04,Brimbank,Private room,74.9,2.18,1.04,1.18,0.72,3.74
+201,beds,1.18,Brimbank,Private room,74.9,2.18,1.04,1.18,0.72,3.74
+202,bathrooms,0.72,Brimbank,Private room,74.9,2.18,1.04,1.18,0.72,3.74
+203,minimum_nights,3.74,Brimbank,Private room,74.9,2.18,1.04,1.18,0.72,3.74
+204,price,117.02,Cardinia,Private room,117.02,3.15,1.12,1.25,0.78,1.86
+205,rating,3.15,Cardinia,Private room,117.02,3.15,1.12,1.25,0.78,1.86
+206,bedrooms,1.12,Cardinia,Private room,117.02,3.15,1.12,1.25,0.78,1.86
+207,beds,1.25,Cardinia,Private room,117.02,3.15,1.12,1.25,0.78,1.86
+208,bathrooms,0.78,Cardinia,Private room,117.02,3.15,1.12,1.25,0.78,1.86
+209,minimum_nights,1.86,Cardinia,Private room,117.02,3.15,1.12,1.25,0.78,1.86
+210,price,85.82,Casey,Private room,85.82,2.55,1.11,1.14,0.7,2.29
+211,rating,2.55,Casey,Private room,85.82,2.55,1.11,1.14,0.7,2.29
+212,bedrooms,1.11,Casey,Private room,85.82,2.55,1.11,1.14,0.7,2.29
+213,beds,1.14,Casey,Private room,85.82,2.55,1.11,1.14,0.7,2.29
+214,bathrooms,0.7,Casey,Private room,85.82,2.55,1.11,1.14,0.7,2.29
+215,minimum_nights,2.29,Casey,Private room,85.82,2.55,1.11,1.14,0.7,2.29
+216,price,158.05,Darebin,Private room,158.05,2.68,1.06,1.11,0.73,3.76
+217,rating,2.68,Darebin,Private room,158.05,2.68,1.06,1.11,0.73,3.76
+218,bedrooms,1.06,Darebin,Private room,158.05,2.68,1.06,1.11,0.73,3.76
+219,beds,1.11,Darebin,Private room,158.05,2.68,1.06,1.11,0.73,3.76
+220,bathrooms,0.73,Darebin,Private room,158.05,2.68,1.06,1.11,0.73,3.76
+221,minimum_nights,3.76,Darebin,Private room,158.05,2.68,1.06,1.11,0.73,3.76
+222,price,105.13,Frankston,Private room,105.13,3.3,1.06,1.15,0.84,2.67
+223,rating,3.3,Frankston,Private room,105.13,3.3,1.06,1.15,0.84,2.67
+224,bedrooms,1.06,Frankston,Private room,105.13,3.3,1.06,1.15,0.84,2.67
+225,beds,1.15,Frankston,Private room,105.13,3.3,1.06,1.15,0.84,2.67
+226,bathrooms,0.84,Frankston,Private room,105.13,3.3,1.06,1.15,0.84,2.67
+227,minimum_nights,2.67,Frankston,Private room,105.13,3.3,1.06,1.15,0.84,2.67
+228,price,223.66,Glen Eira,Private room,223.66,2.22,1.12,1.09,0.63,6.18
+229,rating,2.22,Glen Eira,Private room,223.66,2.22,1.12,1.09,0.63,6.18
+230,bedrooms,1.12,Glen Eira,Private room,223.66,2.22,1.12,1.09,0.63,6.18
+231,beds,1.09,Glen Eira,Private room,223.66,2.22,1.12,1.09,0.63,6.18
+232,bathrooms,0.63,Glen Eira,Private room,223.66,2.22,1.12,1.09,0.63,6.18
+233,minimum_nights,6.18,Glen Eira,Private room,223.66,2.22,1.12,1.09,0.63,6.18
+234,price,88.41,Greater Dandenong,Private room,88.41,2.07,1.12,1.17,0.6,2.97
+235,rating,2.07,Greater Dandenong,Private room,88.41,2.07,1.12,1.17,0.6,2.97
+236,bedrooms,1.12,Greater Dandenong,Private room,88.41,2.07,1.12,1.17,0.6,2.97
+237,beds,1.17,Greater Dandenong,Private room,88.41,2.07,1.12,1.17,0.6,2.97
+238,bathrooms,0.6,Greater Dandenong,Private room,88.41,2.07,1.12,1.17,0.6,2.97
+239,minimum_nights,2.97,Greater Dandenong,Private room,88.41,2.07,1.12,1.17,0.6,2.97
+240,price,102.48,Hobsons Bay,Private room,102.48,3.15,1.03,1.06,0.72,3.03
+241,rating,3.15,Hobsons Bay,Private room,102.48,3.15,1.03,1.06,0.72,3.03
+242,bedrooms,1.03,Hobsons Bay,Private room,102.48,3.15,1.03,1.06,0.72,3.03
+243,beds,1.06,Hobsons Bay,Private room,102.48,3.15,1.03,1.06,0.72,3.03
+244,bathrooms,0.72,Hobsons Bay,Private room,102.48,3.15,1.03,1.06,0.72,3.03
+245,minimum_nights,3.03,Hobsons Bay,Private room,102.48,3.15,1.03,1.06,0.72,3.03
+246,price,110.26,Hume,Private room,110.26,2.66,1.63,1.69,1.03,1.76
+247,rating,2.66,Hume,Private room,110.26,2.66,1.63,1.69,1.03,1.76
+248,bedrooms,1.63,Hume,Private room,110.26,2.66,1.63,1.69,1.03,1.76
+249,beds,1.69,Hume,Private room,110.26,2.66,1.63,1.69,1.03,1.76
+250,bathrooms,1.03,Hume,Private room,110.26,2.66,1.63,1.69,1.03,1.76
+251,minimum_nights,1.76,Hume,Private room,110.26,2.66,1.63,1.69,1.03,1.76
+252,price,107.12,Kingston,Private room,107.12,2.17,1.05,1.04,0.56,10.69
+253,rating,2.17,Kingston,Private room,107.12,2.17,1.05,1.04,0.56,10.69
+254,bedrooms,1.05,Kingston,Private room,107.12,2.17,1.05,1.04,0.56,10.69
+255,beds,1.04,Kingston,Private room,107.12,2.17,1.05,1.04,0.56,10.69
+256,bathrooms,0.56,Kingston,Private room,107.12,2.17,1.05,1.04,0.56,10.69
+257,minimum_nights,10.69,Kingston,Private room,107.12,2.17,1.05,1.04,0.56,10.69
+258,price,119.4,Knox,Private room,119.4,2.56,1.12,1.09,0.67,14.91
+259,rating,2.56,Knox,Private room,119.4,2.56,1.12,1.09,0.67,14.91
+260,bedrooms,1.12,Knox,Private room,119.4,2.56,1.12,1.09,0.67,14.91
+261,beds,1.09,Knox,Private room,119.4,2.56,1.12,1.09,0.67,14.91
+262,bathrooms,0.67,Knox,Private room,119.4,2.56,1.12,1.09,0.67,14.91
+263,minimum_nights,14.91,Knox,Private room,119.4,2.56,1.12,1.09,0.67,14.91
+264,price,123.34,Manningham,Private room,123.34,1.89,1.15,1.05,0.59,2.8
+265,rating,1.89,Manningham,Private room,123.34,1.89,1.15,1.05,0.59,2.8
+266,bedrooms,1.15,Manningham,Private room,123.34,1.89,1.15,1.05,0.59,2.8
+267,beds,1.05,Manningham,Private room,123.34,1.89,1.15,1.05,0.59,2.8
+268,bathrooms,0.59,Manningham,Private room,123.34,1.89,1.15,1.05,0.59,2.8
+269,minimum_nights,2.8,Manningham,Private room,123.34,1.89,1.15,1.05,0.59,2.8
+270,price,70.39,Maribyrnong,Private room,70.39,2.93,1.02,1.02,0.84,2.66
+271,rating,2.93,Maribyrnong,Private room,70.39,2.93,1.02,1.02,0.84,2.66
+272,bedrooms,1.02,Maribyrnong,Private room,70.39,2.93,1.02,1.02,0.84,2.66
+273,beds,1.02,Maribyrnong,Private room,70.39,2.93,1.02,1.02,0.84,2.66
+274,bathrooms,0.84,Maribyrnong,Private room,70.39,2.93,1.02,1.02,0.84,2.66
+275,minimum_nights,2.66,Maribyrnong,Private room,70.39,2.93,1.02,1.02,0.84,2.66
+276,price,88.09,Maroondah,Private room,88.09,2.92,1.09,1.06,0.72,1.76
+277,rating,2.92,Maroondah,Private room,88.09,2.92,1.09,1.06,0.72,1.76
+278,bedrooms,1.09,Maroondah,Private room,88.09,2.92,1.09,1.06,0.72,1.76
+279,beds,1.06,Maroondah,Private room,88.09,2.92,1.09,1.06,0.72,1.76
+280,bathrooms,0.72,Maroondah,Private room,88.09,2.92,1.09,1.06,0.72,1.76
+281,minimum_nights,1.76,Maroondah,Private room,88.09,2.92,1.09,1.06,0.72,1.76
+282,price,185.24,Melbourne,Private room,185.24,2.34,1.04,1.08,0.84,9.04
+283,rating,2.34,Melbourne,Private room,185.24,2.34,1.04,1.08,0.84,9.04
+284,bedrooms,1.04,Melbourne,Private room,185.24,2.34,1.04,1.08,0.84,9.04
+285,beds,1.08,Melbourne,Private room,185.24,2.34,1.04,1.08,0.84,9.04
+286,bathrooms,0.84,Melbourne,Private room,185.24,2.34,1.04,1.08,0.84,9.04
+287,minimum_nights,9.04,Melbourne,Private room,185.24,2.34,1.04,1.08,0.84,9.04
+288,price,84.82,Melton,Private room,84.82,2.14,1.24,1.21,0.69,1.71
+289,rating,2.14,Melton,Private room,84.82,2.14,1.24,1.21,0.69,1.71
+290,bedrooms,1.24,Melton,Private room,84.82,2.14,1.24,1.21,0.69,1.71
+291,beds,1.21,Melton,Private room,84.82,2.14,1.24,1.21,0.69,1.71
+292,bathrooms,0.69,Melton,Private room,84.82,2.14,1.24,1.21,0.69,1.71
+293,minimum_nights,1.71,Melton,Private room,84.82,2.14,1.24,1.21,0.69,1.71
+294,price,92.66,Monash,Private room,92.66,2.21,1.08,1.05,0.7,4.74
+295,rating,2.21,Monash,Private room,92.66,2.21,1.08,1.05,0.7,4.74
+296,bedrooms,1.08,Monash,Private room,92.66,2.21,1.08,1.05,0.7,4.74
+297,beds,1.05,Monash,Private room,92.66,2.21,1.08,1.05,0.7,4.74
+298,bathrooms,0.7,Monash,Private room,92.66,2.21,1.08,1.05,0.7,4.74
+299,minimum_nights,4.74,Monash,Private room,92.66,2.21,1.08,1.05,0.7,4.74
+300,price,88.51,Moonee Valley,Private room,88.51,2.35,1.06,1.06,0.59,5.59
+301,rating,2.35,Moonee Valley,Private room,88.51,2.35,1.06,1.06,0.59,5.59
+302,bedrooms,1.06,Moonee Valley,Private room,88.51,2.35,1.06,1.06,0.59,5.59
+303,beds,1.06,Moonee Valley,Private room,88.51,2.35,1.06,1.06,0.59,5.59
+304,bathrooms,0.59,Moonee Valley,Private room,88.51,2.35,1.06,1.06,0.59,5.59
+305,minimum_nights,5.59,Moonee Valley,Private room,88.51,2.35,1.06,1.06,0.59,5.59
+306,price,62.57,Moreland,Private room,62.57,2.47,1.11,1.33,0.88,8.27
+307,rating,2.47,Moreland,Private room,62.57,2.47,1.11,1.33,0.88,8.27
+308,bedrooms,1.11,Moreland,Private room,62.57,2.47,1.11,1.33,0.88,8.27
+309,beds,1.33,Moreland,Private room,62.57,2.47,1.11,1.33,0.88,8.27
+310,bathrooms,0.88,Moreland,Private room,62.57,2.47,1.11,1.33,0.88,8.27
+311,minimum_nights,8.27,Moreland,Private room,62.57,2.47,1.11,1.33,0.88,8.27
+312,price,98.0,Nillumbik,Private room,98.0,4.04,1.25,1.58,0.88,1.67
+313,rating,4.04,Nillumbik,Private room,98.0,4.04,1.25,1.58,0.88,1.67
+314,bedrooms,1.25,Nillumbik,Private room,98.0,4.04,1.25,1.58,0.88,1.67
+315,beds,1.58,Nillumbik,Private room,98.0,4.04,1.25,1.58,0.88,1.67
+316,bathrooms,0.88,Nillumbik,Private room,98.0,4.04,1.25,1.58,0.88,1.67
+317,minimum_nights,1.67,Nillumbik,Private room,98.0,4.04,1.25,1.58,0.88,1.67
+318,price,147.65,Port Phillip,Private room,147.65,2.17,1.04,1.06,0.52,3.98
+319,rating,2.17,Port Phillip,Private room,147.65,2.17,1.04,1.06,0.52,3.98
+320,bedrooms,1.04,Port Phillip,Private room,147.65,2.17,1.04,1.06,0.52,3.98
+321,beds,1.06,Port Phillip,Private room,147.65,2.17,1.04,1.06,0.52,3.98
+322,bathrooms,0.52,Port Phillip,Private room,147.65,2.17,1.04,1.06,0.52,3.98
+323,minimum_nights,3.98,Port Phillip,Private room,147.65,2.17,1.04,1.06,0.52,3.98
+324,price,87.52,Stonnington,Private room,87.52,2.14,1.04,1.0,0.51,3.85
+325,rating,2.14,Stonnington,Private room,87.52,2.14,1.04,1.0,0.51,3.85
+326,bedrooms,1.04,Stonnington,Private room,87.52,2.14,1.04,1.0,0.51,3.85
+327,beds,1.0,Stonnington,Private room,87.52,2.14,1.04,1.0,0.51,3.85
+328,bathrooms,0.51,Stonnington,Private room,87.52,2.14,1.04,1.0,0.51,3.85
+329,minimum_nights,3.85,Stonnington,Private room,87.52,2.14,1.04,1.0,0.51,3.85
+330,price,130.67,Whitehorse,Private room,130.67,2.52,1.07,1.05,0.66,4.47
+331,rating,2.52,Whitehorse,Private room,130.67,2.52,1.07,1.05,0.66,4.47
+332,bedrooms,1.07,Whitehorse,Private room,130.67,2.52,1.07,1.05,0.66,4.47
+333,beds,1.05,Whitehorse,Private room,130.67,2.52,1.07,1.05,0.66,4.47
+334,bathrooms,0.66,Whitehorse,Private room,130.67,2.52,1.07,1.05,0.66,4.47
+335,minimum_nights,4.47,Whitehorse,Private room,130.67,2.52,1.07,1.05,0.66,4.47
+336,price,219.57,Whittlesea,Private room,219.57,2.01,1.27,1.34,0.65,6.14
+337,rating,2.01,Whittlesea,Private room,219.57,2.01,1.27,1.34,0.65,6.14
+338,bedrooms,1.27,Whittlesea,Private room,219.57,2.01,1.27,1.34,0.65,6.14
+339,beds,1.34,Whittlesea,Private room,219.57,2.01,1.27,1.34,0.65,6.14
+340,bathrooms,0.65,Whittlesea,Private room,219.57,2.01,1.27,1.34,0.65,6.14
+341,minimum_nights,6.14,Whittlesea,Private room,219.57,2.01,1.27,1.34,0.65,6.14
+342,price,92.63,Wyndham,Private room,92.63,2.41,1.16,1.18,0.78,3.43
+343,rating,2.41,Wyndham,Private room,92.63,2.41,1.16,1.18,0.78,3.43
+344,bedrooms,1.16,Wyndham,Private room,92.63,2.41,1.16,1.18,0.78,3.43
+345,beds,1.18,Wyndham,Private room,92.63,2.41,1.16,1.18,0.78,3.43
+346,bathrooms,0.78,Wyndham,Private room,92.63,2.41,1.16,1.18,0.78,3.43
+347,minimum_nights,3.43,Wyndham,Private room,92.63,2.41,1.16,1.18,0.78,3.43
+348,price,158.96,Yarra,Private room,158.96,2.35,1.24,1.27,0.71,5.85
+349,rating,2.35,Yarra,Private room,158.96,2.35,1.24,1.27,0.71,5.85
+350,bedrooms,1.24,Yarra,Private room,158.96,2.35,1.24,1.27,0.71,5.85
+351,beds,1.27,Yarra,Private room,158.96,2.35,1.24,1.27,0.71,5.85
+352,bathrooms,0.71,Yarra,Private room,158.96,2.35,1.24,1.27,0.71,5.85
+353,minimum_nights,5.85,Yarra,Private room,158.96,2.35,1.24,1.27,0.71,5.85
+354,price,211.79,Yarra Ranges,Private room,211.79,3.13,1.23,1.43,0.79,3.37
+355,rating,3.13,Yarra Ranges,Private room,211.79,3.13,1.23,1.43,0.79,3.37
+356,bedrooms,1.23,Yarra Ranges,Private room,211.79,3.13,1.23,1.43,0.79,3.37
+357,beds,1.43,Yarra Ranges,Private room,211.79,3.13,1.23,1.43,0.79,3.37
+358,bathrooms,0.79,Yarra Ranges,Private room,211.79,3.13,1.23,1.43,0.79,3.37
+359,minimum_nights,3.37,Yarra Ranges,Private room,211.79,3.13,1.23,1.43,0.79,3.37
+360,price,0.0,Banyule,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+361,rating,0.0,Banyule,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+362,bedrooms,0.0,Banyule,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+363,beds,0.0,Banyule,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+364,bathrooms,0.0,Banyule,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+365,minimum_nights,0.0,Banyule,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+366,price,85.0,Bayside,Shared room,85.0,0.0,1.0,1.0,0.0,1.0
+367,rating,0.0,Bayside,Shared room,85.0,0.0,1.0,1.0,0.0,1.0
+368,bedrooms,1.0,Bayside,Shared room,85.0,0.0,1.0,1.0,0.0,1.0
+369,beds,1.0,Bayside,Shared room,85.0,0.0,1.0,1.0,0.0,1.0
+370,bathrooms,0.0,Bayside,Shared room,85.0,0.0,1.0,1.0,0.0,1.0
+371,minimum_nights,1.0,Bayside,Shared room,85.0,0.0,1.0,1.0,0.0,1.0
+372,price,169.0,Boroondara,Shared room,169.0,0.76,1.0,1.17,0.5,6.17
+373,rating,0.76,Boroondara,Shared room,169.0,0.76,1.0,1.17,0.5,6.17
+374,bedrooms,1.0,Boroondara,Shared room,169.0,0.76,1.0,1.17,0.5,6.17
+375,beds,1.17,Boroondara,Shared room,169.0,0.76,1.0,1.17,0.5,6.17
+376,bathrooms,0.5,Boroondara,Shared room,169.0,0.76,1.0,1.17,0.5,6.17
+377,minimum_nights,6.17,Boroondara,Shared room,169.0,0.76,1.0,1.17,0.5,6.17
+378,price,43.42,Brimbank,Shared room,43.42,2.79,1.04,1.88,0.94,1.12
+379,rating,2.79,Brimbank,Shared room,43.42,2.79,1.04,1.88,0.94,1.12
+380,bedrooms,1.04,Brimbank,Shared room,43.42,2.79,1.04,1.88,0.94,1.12
+381,beds,1.88,Brimbank,Shared room,43.42,2.79,1.04,1.88,0.94,1.12
+382,bathrooms,0.94,Brimbank,Shared room,43.42,2.79,1.04,1.88,0.94,1.12
+383,minimum_nights,1.12,Brimbank,Shared room,43.42,2.79,1.04,1.88,0.94,1.12
+384,price,0.0,Cardinia,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+385,rating,0.0,Cardinia,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+386,bedrooms,0.0,Cardinia,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+387,beds,0.0,Cardinia,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+388,bathrooms,0.0,Cardinia,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+389,minimum_nights,0.0,Cardinia,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+390,price,221.83,Casey,Shared room,221.83,0.0,1.0,1.5,0.33,1.0
+391,rating,0.0,Casey,Shared room,221.83,0.0,1.0,1.5,0.33,1.0
+392,bedrooms,1.0,Casey,Shared room,221.83,0.0,1.0,1.5,0.33,1.0
+393,beds,1.5,Casey,Shared room,221.83,0.0,1.0,1.5,0.33,1.0
+394,bathrooms,0.33,Casey,Shared room,221.83,0.0,1.0,1.5,0.33,1.0
+395,minimum_nights,1.0,Casey,Shared room,221.83,0.0,1.0,1.5,0.33,1.0
+396,price,50.67,Darebin,Shared room,50.67,1.58,1.0,1.33,0.33,1.33
+397,rating,1.58,Darebin,Shared room,50.67,1.58,1.0,1.33,0.33,1.33
+398,bedrooms,1.0,Darebin,Shared room,50.67,1.58,1.0,1.33,0.33,1.33
+399,beds,1.33,Darebin,Shared room,50.67,1.58,1.0,1.33,0.33,1.33
+400,bathrooms,0.33,Darebin,Shared room,50.67,1.58,1.0,1.33,0.33,1.33
+401,minimum_nights,1.33,Darebin,Shared room,50.67,1.58,1.0,1.33,0.33,1.33
+402,price,138.0,Frankston,Shared room,138.0,2.4,1.0,3.0,1.5,1.0
+403,rating,2.4,Frankston,Shared room,138.0,2.4,1.0,3.0,1.5,1.0
+404,bedrooms,1.0,Frankston,Shared room,138.0,2.4,1.0,3.0,1.5,1.0
+405,beds,3.0,Frankston,Shared room,138.0,2.4,1.0,3.0,1.5,1.0
+406,bathrooms,1.5,Frankston,Shared room,138.0,2.4,1.0,3.0,1.5,1.0
+407,minimum_nights,1.0,Frankston,Shared room,138.0,2.4,1.0,3.0,1.5,1.0
+408,price,47.94,Glen Eira,Shared room,47.94,0.89,1.0,2.75,1.53,4.38
+409,rating,0.89,Glen Eira,Shared room,47.94,0.89,1.0,2.75,1.53,4.38
+410,bedrooms,1.0,Glen Eira,Shared room,47.94,0.89,1.0,2.75,1.53,4.38
+411,beds,2.75,Glen Eira,Shared room,47.94,0.89,1.0,2.75,1.53,4.38
+412,bathrooms,1.53,Glen Eira,Shared room,47.94,0.89,1.0,2.75,1.53,4.38
+413,minimum_nights,4.38,Glen Eira,Shared room,47.94,0.89,1.0,2.75,1.53,4.38
+414,price,101.5,Greater Dandenong,Shared room,101.5,1.04,1.0,1.88,1.0,2.5
+415,rating,1.04,Greater Dandenong,Shared room,101.5,1.04,1.0,1.88,1.0,2.5
+416,bedrooms,1.0,Greater Dandenong,Shared room,101.5,1.04,1.0,1.88,1.0,2.5
+417,beds,1.88,Greater Dandenong,Shared room,101.5,1.04,1.0,1.88,1.0,2.5
+418,bathrooms,1.0,Greater Dandenong,Shared room,101.5,1.04,1.0,1.88,1.0,2.5
+419,minimum_nights,2.5,Greater Dandenong,Shared room,101.5,1.04,1.0,1.88,1.0,2.5
+420,price,90.0,Hobsons Bay,Shared room,90.0,0.0,1.0,1.0,0.0,1.0
+421,rating,0.0,Hobsons Bay,Shared room,90.0,0.0,1.0,1.0,0.0,1.0
+422,bedrooms,1.0,Hobsons Bay,Shared room,90.0,0.0,1.0,1.0,0.0,1.0
+423,beds,1.0,Hobsons Bay,Shared room,90.0,0.0,1.0,1.0,0.0,1.0
+424,bathrooms,0.0,Hobsons Bay,Shared room,90.0,0.0,1.0,1.0,0.0,1.0
+425,minimum_nights,1.0,Hobsons Bay,Shared room,90.0,0.0,1.0,1.0,0.0,1.0
+426,price,70.0,Hume,Shared room,70.0,4.69,1.0,4.0,1.0,2.0
+427,rating,4.69,Hume,Shared room,70.0,4.69,1.0,4.0,1.0,2.0
+428,bedrooms,1.0,Hume,Shared room,70.0,4.69,1.0,4.0,1.0,2.0
+429,beds,4.0,Hume,Shared room,70.0,4.69,1.0,4.0,1.0,2.0
+430,bathrooms,1.0,Hume,Shared room,70.0,4.69,1.0,4.0,1.0,2.0
+431,minimum_nights,2.0,Hume,Shared room,70.0,4.69,1.0,4.0,1.0,2.0
+432,price,140.0,Kingston,Shared room,140.0,0.0,1.0,1.0,0.0,1.0
+433,rating,0.0,Kingston,Shared room,140.0,0.0,1.0,1.0,0.0,1.0
+434,bedrooms,1.0,Kingston,Shared room,140.0,0.0,1.0,1.0,0.0,1.0
+435,beds,1.0,Kingston,Shared room,140.0,0.0,1.0,1.0,0.0,1.0
+436,bathrooms,0.0,Kingston,Shared room,140.0,0.0,1.0,1.0,0.0,1.0
+437,minimum_nights,1.0,Kingston,Shared room,140.0,0.0,1.0,1.0,0.0,1.0
+438,price,48.0,Knox,Shared room,48.0,0.0,1.0,1.0,0.0,1.0
+439,rating,0.0,Knox,Shared room,48.0,0.0,1.0,1.0,0.0,1.0
+440,bedrooms,1.0,Knox,Shared room,48.0,0.0,1.0,1.0,0.0,1.0
+441,beds,1.0,Knox,Shared room,48.0,0.0,1.0,1.0,0.0,1.0
+442,bathrooms,0.0,Knox,Shared room,48.0,0.0,1.0,1.0,0.0,1.0
+443,minimum_nights,1.0,Knox,Shared room,48.0,0.0,1.0,1.0,0.0,1.0
+444,price,290.0,Manningham,Shared room,290.0,1.83,1.0,0.5,0.5,1.0
+445,rating,1.83,Manningham,Shared room,290.0,1.83,1.0,0.5,0.5,1.0
+446,bedrooms,1.0,Manningham,Shared room,290.0,1.83,1.0,0.5,0.5,1.0
+447,beds,0.5,Manningham,Shared room,290.0,1.83,1.0,0.5,0.5,1.0
+448,bathrooms,0.5,Manningham,Shared room,290.0,1.83,1.0,0.5,0.5,1.0
+449,minimum_nights,1.0,Manningham,Shared room,290.0,1.83,1.0,0.5,0.5,1.0
+450,price,55.75,Maribyrnong,Shared room,55.75,2.95,1.25,1.75,1.0,1.5
+451,rating,2.95,Maribyrnong,Shared room,55.75,2.95,1.25,1.75,1.0,1.5
+452,bedrooms,1.25,Maribyrnong,Shared room,55.75,2.95,1.25,1.75,1.0,1.5
+453,beds,1.75,Maribyrnong,Shared room,55.75,2.95,1.25,1.75,1.0,1.5
+454,bathrooms,1.0,Maribyrnong,Shared room,55.75,2.95,1.25,1.75,1.0,1.5
+455,minimum_nights,1.5,Maribyrnong,Shared room,55.75,2.95,1.25,1.75,1.0,1.5
+456,price,200.0,Maroondah,Shared room,200.0,0.0,1.0,0.0,0.0,2.0
+457,rating,0.0,Maroondah,Shared room,200.0,0.0,1.0,0.0,0.0,2.0
+458,bedrooms,1.0,Maroondah,Shared room,200.0,0.0,1.0,0.0,0.0,2.0
+459,beds,0.0,Maroondah,Shared room,200.0,0.0,1.0,0.0,0.0,2.0
+460,bathrooms,0.0,Maroondah,Shared room,200.0,0.0,1.0,0.0,0.0,2.0
+461,minimum_nights,2.0,Maroondah,Shared room,200.0,0.0,1.0,0.0,0.0,2.0
+462,price,108.83,Melbourne,Shared room,108.83,1.61,1.0,1.88,0.54,5.29
+463,rating,1.61,Melbourne,Shared room,108.83,1.61,1.0,1.88,0.54,5.29
+464,bedrooms,1.0,Melbourne,Shared room,108.83,1.61,1.0,1.88,0.54,5.29
+465,beds,1.88,Melbourne,Shared room,108.83,1.61,1.0,1.88,0.54,5.29
+466,bathrooms,0.54,Melbourne,Shared room,108.83,1.61,1.0,1.88,0.54,5.29
+467,minimum_nights,5.29,Melbourne,Shared room,108.83,1.61,1.0,1.88,0.54,5.29
+468,price,76.0,Melton,Shared room,76.0,0.0,1.0,1.0,0.0,1.0
+469,rating,0.0,Melton,Shared room,76.0,0.0,1.0,1.0,0.0,1.0
+470,bedrooms,1.0,Melton,Shared room,76.0,0.0,1.0,1.0,0.0,1.0
+471,beds,1.0,Melton,Shared room,76.0,0.0,1.0,1.0,0.0,1.0
+472,bathrooms,0.0,Melton,Shared room,76.0,0.0,1.0,1.0,0.0,1.0
+473,minimum_nights,1.0,Melton,Shared room,76.0,0.0,1.0,1.0,0.0,1.0
+474,price,65.62,Monash,Shared room,65.62,1.75,1.0,1.5,0.88,5.62
+475,rating,1.75,Monash,Shared room,65.62,1.75,1.0,1.5,0.88,5.62
+476,bedrooms,1.0,Monash,Shared room,65.62,1.75,1.0,1.5,0.88,5.62
+477,beds,1.5,Monash,Shared room,65.62,1.75,1.0,1.5,0.88,5.62
+478,bathrooms,0.88,Monash,Shared room,65.62,1.75,1.0,1.5,0.88,5.62
+479,minimum_nights,5.62,Monash,Shared room,65.62,1.75,1.0,1.5,0.88,5.62
+480,price,46.82,Moonee Valley,Shared room,46.82,2.12,1.0,1.27,0.73,5.09
+481,rating,2.12,Moonee Valley,Shared room,46.82,2.12,1.0,1.27,0.73,5.09
+482,bedrooms,1.0,Moonee Valley,Shared room,46.82,2.12,1.0,1.27,0.73,5.09
+483,beds,1.27,Moonee Valley,Shared room,46.82,2.12,1.0,1.27,0.73,5.09
+484,bathrooms,0.73,Moonee Valley,Shared room,46.82,2.12,1.0,1.27,0.73,5.09
+485,minimum_nights,5.09,Moonee Valley,Shared room,46.82,2.12,1.0,1.27,0.73,5.09
+486,price,99.5,Moreland,Shared room,99.5,0.81,1.0,1.0,0.25,1.5
+487,rating,0.81,Moreland,Shared room,99.5,0.81,1.0,1.0,0.25,1.5
+488,bedrooms,1.0,Moreland,Shared room,99.5,0.81,1.0,1.0,0.25,1.5
+489,beds,1.0,Moreland,Shared room,99.5,0.81,1.0,1.0,0.25,1.5
+490,bathrooms,0.25,Moreland,Shared room,99.5,0.81,1.0,1.0,0.25,1.5
+491,minimum_nights,1.5,Moreland,Shared room,99.5,0.81,1.0,1.0,0.25,1.5
+492,price,0.0,Nillumbik,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+493,rating,0.0,Nillumbik,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+494,bedrooms,0.0,Nillumbik,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+495,beds,0.0,Nillumbik,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+496,bathrooms,0.0,Nillumbik,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+497,minimum_nights,0.0,Nillumbik,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+498,price,84.88,Port Phillip,Shared room,84.88,2.74,1.0,1.12,0.66,4.75
+499,rating,2.74,Port Phillip,Shared room,84.88,2.74,1.0,1.12,0.66,4.75
+500,bedrooms,1.0,Port Phillip,Shared room,84.88,2.74,1.0,1.12,0.66,4.75
+501,beds,1.12,Port Phillip,Shared room,84.88,2.74,1.0,1.12,0.66,4.75
+502,bathrooms,0.66,Port Phillip,Shared room,84.88,2.74,1.0,1.12,0.66,4.75
+503,minimum_nights,4.75,Port Phillip,Shared room,84.88,2.74,1.0,1.12,0.66,4.75
+504,price,43.67,Stonnington,Shared room,43.67,0.0,1.0,0.67,0.0,2.33
+505,rating,0.0,Stonnington,Shared room,43.67,0.0,1.0,0.67,0.0,2.33
+506,bedrooms,1.0,Stonnington,Shared room,43.67,0.0,1.0,0.67,0.0,2.33
+507,beds,0.67,Stonnington,Shared room,43.67,0.0,1.0,0.67,0.0,2.33
+508,bathrooms,0.0,Stonnington,Shared room,43.67,0.0,1.0,0.67,0.0,2.33
+509,minimum_nights,2.33,Stonnington,Shared room,43.67,0.0,1.0,0.67,0.0,2.33
+510,price,103.67,Whitehorse,Shared room,103.67,1.06,1.0,1.0,0.38,3.08
+511,rating,1.06,Whitehorse,Shared room,103.67,1.06,1.0,1.0,0.38,3.08
+512,bedrooms,1.0,Whitehorse,Shared room,103.67,1.06,1.0,1.0,0.38,3.08
+513,beds,1.0,Whitehorse,Shared room,103.67,1.06,1.0,1.0,0.38,3.08
+514,bathrooms,0.38,Whitehorse,Shared room,103.67,1.06,1.0,1.0,0.38,3.08
+515,minimum_nights,3.08,Whitehorse,Shared room,103.67,1.06,1.0,1.0,0.38,3.08
+516,price,60.0,Whittlesea,Shared room,60.0,1.25,1.5,1.0,0.25,1.0
+517,rating,1.25,Whittlesea,Shared room,60.0,1.25,1.5,1.0,0.25,1.0
+518,bedrooms,1.5,Whittlesea,Shared room,60.0,1.25,1.5,1.0,0.25,1.0
+519,beds,1.0,Whittlesea,Shared room,60.0,1.25,1.5,1.0,0.25,1.0
+520,bathrooms,0.25,Whittlesea,Shared room,60.0,1.25,1.5,1.0,0.25,1.0
+521,minimum_nights,1.0,Whittlesea,Shared room,60.0,1.25,1.5,1.0,0.25,1.0
+522,price,59.0,Wyndham,Shared room,59.0,0.0,1.0,1.0,0.0,1.0
+523,rating,0.0,Wyndham,Shared room,59.0,0.0,1.0,1.0,0.0,1.0
+524,bedrooms,1.0,Wyndham,Shared room,59.0,0.0,1.0,1.0,0.0,1.0
+525,beds,1.0,Wyndham,Shared room,59.0,0.0,1.0,1.0,0.0,1.0
+526,bathrooms,0.0,Wyndham,Shared room,59.0,0.0,1.0,1.0,0.0,1.0
+527,minimum_nights,1.0,Wyndham,Shared room,59.0,0.0,1.0,1.0,0.0,1.0
+528,price,60.09,Yarra,Shared room,60.09,2.38,1.0,1.18,0.55,1.91
+529,rating,2.38,Yarra,Shared room,60.09,2.38,1.0,1.18,0.55,1.91
+530,bedrooms,1.0,Yarra,Shared room,60.09,2.38,1.0,1.18,0.55,1.91
+531,beds,1.18,Yarra,Shared room,60.09,2.38,1.0,1.18,0.55,1.91
+532,bathrooms,0.55,Yarra,Shared room,60.09,2.38,1.0,1.18,0.55,1.91
+533,minimum_nights,1.91,Yarra,Shared room,60.09,2.38,1.0,1.18,0.55,1.91
+534,price,0.0,Yarra Ranges,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+535,rating,0.0,Yarra Ranges,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+536,bedrooms,0.0,Yarra Ranges,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+537,beds,0.0,Yarra Ranges,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+538,bathrooms,0.0,Yarra Ranges,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+539,minimum_nights,0.0,Yarra Ranges,Shared room,0.0,0.0,0.0,0.0,0.0,0.0
+540,price,0.0,Banyule,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+541,rating,0.0,Banyule,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+542,bedrooms,0.0,Banyule,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+543,beds,0.0,Banyule,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+544,bathrooms,0.0,Banyule,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+545,minimum_nights,0.0,Banyule,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+546,price,0.0,Bayside,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+547,rating,0.0,Bayside,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+548,bedrooms,0.0,Bayside,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+549,beds,0.0,Bayside,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+550,bathrooms,0.0,Bayside,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+551,minimum_nights,0.0,Bayside,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+552,price,265.0,Boroondara,Hotel room,265.0,4.0,2.0,3.0,1.0,1.0
+553,rating,4.0,Boroondara,Hotel room,265.0,4.0,2.0,3.0,1.0,1.0
+554,bedrooms,2.0,Boroondara,Hotel room,265.0,4.0,2.0,3.0,1.0,1.0
+555,beds,3.0,Boroondara,Hotel room,265.0,4.0,2.0,3.0,1.0,1.0
+556,bathrooms,1.0,Boroondara,Hotel room,265.0,4.0,2.0,3.0,1.0,1.0
+557,minimum_nights,1.0,Boroondara,Hotel room,265.0,4.0,2.0,3.0,1.0,1.0
+558,price,0.0,Brimbank,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+559,rating,0.0,Brimbank,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+560,bedrooms,0.0,Brimbank,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+561,beds,0.0,Brimbank,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+562,bathrooms,0.0,Brimbank,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+563,minimum_nights,0.0,Brimbank,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+564,price,0.0,Cardinia,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+565,rating,0.0,Cardinia,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+566,bedrooms,0.0,Cardinia,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+567,beds,0.0,Cardinia,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+568,bathrooms,0.0,Cardinia,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+569,minimum_nights,0.0,Cardinia,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+570,price,0.0,Casey,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+571,rating,0.0,Casey,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+572,bedrooms,0.0,Casey,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+573,beds,0.0,Casey,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+574,bathrooms,0.0,Casey,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+575,minimum_nights,0.0,Casey,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+576,price,0.0,Darebin,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+577,rating,0.0,Darebin,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+578,bedrooms,0.0,Darebin,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+579,beds,0.0,Darebin,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+580,bathrooms,0.0,Darebin,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+581,minimum_nights,0.0,Darebin,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+582,price,0.0,Frankston,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+583,rating,0.0,Frankston,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+584,bedrooms,0.0,Frankston,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+585,beds,0.0,Frankston,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+586,bathrooms,0.0,Frankston,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+587,minimum_nights,0.0,Frankston,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+588,price,0.0,Glen Eira,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+589,rating,0.0,Glen Eira,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+590,bedrooms,0.0,Glen Eira,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+591,beds,0.0,Glen Eira,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+592,bathrooms,0.0,Glen Eira,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+593,minimum_nights,0.0,Glen Eira,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+594,price,0.0,Greater Dandenong,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+595,rating,0.0,Greater Dandenong,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+596,bedrooms,0.0,Greater Dandenong,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+597,beds,0.0,Greater Dandenong,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+598,bathrooms,0.0,Greater Dandenong,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+599,minimum_nights,0.0,Greater Dandenong,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+600,price,324.5,Hobsons Bay,Hotel room,324.5,2.33,1.0,2.0,0.0,3.5
+601,rating,2.33,Hobsons Bay,Hotel room,324.5,2.33,1.0,2.0,0.0,3.5
+602,bedrooms,1.0,Hobsons Bay,Hotel room,324.5,2.33,1.0,2.0,0.0,3.5
+603,beds,2.0,Hobsons Bay,Hotel room,324.5,2.33,1.0,2.0,0.0,3.5
+604,bathrooms,0.0,Hobsons Bay,Hotel room,324.5,2.33,1.0,2.0,0.0,3.5
+605,minimum_nights,3.5,Hobsons Bay,Hotel room,324.5,2.33,1.0,2.0,0.0,3.5
+606,price,0.0,Hume,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+607,rating,0.0,Hume,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+608,bedrooms,0.0,Hume,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+609,beds,0.0,Hume,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+610,bathrooms,0.0,Hume,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+611,minimum_nights,0.0,Hume,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+612,price,335.6,Kingston,Hotel room,335.6,2.4,1.0,1.4,0.8,1.0
+613,rating,2.4,Kingston,Hotel room,335.6,2.4,1.0,1.4,0.8,1.0
+614,bedrooms,1.0,Kingston,Hotel room,335.6,2.4,1.0,1.4,0.8,1.0
+615,beds,1.4,Kingston,Hotel room,335.6,2.4,1.0,1.4,0.8,1.0
+616,bathrooms,0.8,Kingston,Hotel room,335.6,2.4,1.0,1.4,0.8,1.0
+617,minimum_nights,1.0,Kingston,Hotel room,335.6,2.4,1.0,1.4,0.8,1.0
+618,price,0.0,Knox,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+619,rating,0.0,Knox,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+620,bedrooms,0.0,Knox,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+621,beds,0.0,Knox,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+622,bathrooms,0.0,Knox,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+623,minimum_nights,0.0,Knox,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+624,price,0.0,Manningham,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+625,rating,0.0,Manningham,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+626,bedrooms,0.0,Manningham,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+627,beds,0.0,Manningham,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+628,bathrooms,0.0,Manningham,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+629,minimum_nights,0.0,Manningham,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+630,price,0.0,Maribyrnong,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+631,rating,0.0,Maribyrnong,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+632,bedrooms,0.0,Maribyrnong,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+633,beds,0.0,Maribyrnong,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+634,bathrooms,0.0,Maribyrnong,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+635,minimum_nights,0.0,Maribyrnong,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+636,price,297.0,Maroondah,Hotel room,297.0,2.37,1.5,2.0,0.5,1.0
+637,rating,2.37,Maroondah,Hotel room,297.0,2.37,1.5,2.0,0.5,1.0
+638,bedrooms,1.5,Maroondah,Hotel room,297.0,2.37,1.5,2.0,0.5,1.0
+639,beds,2.0,Maroondah,Hotel room,297.0,2.37,1.5,2.0,0.5,1.0
+640,bathrooms,0.5,Maroondah,Hotel room,297.0,2.37,1.5,2.0,0.5,1.0
+641,minimum_nights,1.0,Maroondah,Hotel room,297.0,2.37,1.5,2.0,0.5,1.0
+642,price,176.66,Melbourne,Hotel room,176.66,3.47,1.0,1.15,0.68,3.12
+643,rating,3.47,Melbourne,Hotel room,176.66,3.47,1.0,1.15,0.68,3.12
+644,bedrooms,1.0,Melbourne,Hotel room,176.66,3.47,1.0,1.15,0.68,3.12
+645,beds,1.15,Melbourne,Hotel room,176.66,3.47,1.0,1.15,0.68,3.12
+646,bathrooms,0.68,Melbourne,Hotel room,176.66,3.47,1.0,1.15,0.68,3.12
+647,minimum_nights,3.12,Melbourne,Hotel room,176.66,3.47,1.0,1.15,0.68,3.12
+648,price,0.0,Melton,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+649,rating,0.0,Melton,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+650,bedrooms,0.0,Melton,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+651,beds,0.0,Melton,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+652,bathrooms,0.0,Melton,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+653,minimum_nights,0.0,Melton,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+654,price,0.0,Monash,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+655,rating,0.0,Monash,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+656,bedrooms,0.0,Monash,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+657,beds,0.0,Monash,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+658,bathrooms,0.0,Monash,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+659,minimum_nights,0.0,Monash,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+660,price,0.0,Moonee Valley,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+661,rating,0.0,Moonee Valley,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+662,bedrooms,0.0,Moonee Valley,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+663,beds,0.0,Moonee Valley,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+664,bathrooms,0.0,Moonee Valley,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+665,minimum_nights,0.0,Moonee Valley,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+666,price,0.0,Moreland,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+667,rating,0.0,Moreland,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+668,bedrooms,0.0,Moreland,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+669,beds,0.0,Moreland,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+670,bathrooms,0.0,Moreland,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+671,minimum_nights,0.0,Moreland,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+672,price,0.0,Nillumbik,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+673,rating,0.0,Nillumbik,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+674,bedrooms,0.0,Nillumbik,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+675,beds,0.0,Nillumbik,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+676,bathrooms,0.0,Nillumbik,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+677,minimum_nights,0.0,Nillumbik,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+678,price,472.1,Port Phillip,Hotel room,472.1,3.61,1.8,1.9,1.1,1.8
+679,rating,3.61,Port Phillip,Hotel room,472.1,3.61,1.8,1.9,1.1,1.8
+680,bedrooms,1.8,Port Phillip,Hotel room,472.1,3.61,1.8,1.9,1.1,1.8
+681,beds,1.9,Port Phillip,Hotel room,472.1,3.61,1.8,1.9,1.1,1.8
+682,bathrooms,1.1,Port Phillip,Hotel room,472.1,3.61,1.8,1.9,1.1,1.8
+683,minimum_nights,1.8,Port Phillip,Hotel room,472.1,3.61,1.8,1.9,1.1,1.8
+684,price,124.5,Stonnington,Hotel room,124.5,0.69,1.0,1.14,0.14,1.0
+685,rating,0.69,Stonnington,Hotel room,124.5,0.69,1.0,1.14,0.14,1.0
+686,bedrooms,1.0,Stonnington,Hotel room,124.5,0.69,1.0,1.14,0.14,1.0
+687,beds,1.14,Stonnington,Hotel room,124.5,0.69,1.0,1.14,0.14,1.0
+688,bathrooms,0.14,Stonnington,Hotel room,124.5,0.69,1.0,1.14,0.14,1.0
+689,minimum_nights,1.0,Stonnington,Hotel room,124.5,0.69,1.0,1.14,0.14,1.0
+690,price,311.0,Whitehorse,Hotel room,311.0,4.57,1.0,1.0,1.0,1.0
+691,rating,4.57,Whitehorse,Hotel room,311.0,4.57,1.0,1.0,1.0,1.0
+692,bedrooms,1.0,Whitehorse,Hotel room,311.0,4.57,1.0,1.0,1.0,1.0
+693,beds,1.0,Whitehorse,Hotel room,311.0,4.57,1.0,1.0,1.0,1.0
+694,bathrooms,1.0,Whitehorse,Hotel room,311.0,4.57,1.0,1.0,1.0,1.0
+695,minimum_nights,1.0,Whitehorse,Hotel room,311.0,4.57,1.0,1.0,1.0,1.0
+696,price,0.0,Whittlesea,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+697,rating,0.0,Whittlesea,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+698,bedrooms,0.0,Whittlesea,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+699,beds,0.0,Whittlesea,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+700,bathrooms,0.0,Whittlesea,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+701,minimum_nights,0.0,Whittlesea,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+702,price,234.0,Wyndham,Hotel room,234.0,4.58,1.0,1.5,0.5,1.0
+703,rating,4.58,Wyndham,Hotel room,234.0,4.58,1.0,1.5,0.5,1.0
+704,bedrooms,1.0,Wyndham,Hotel room,234.0,4.58,1.0,1.5,0.5,1.0
+705,beds,1.5,Wyndham,Hotel room,234.0,4.58,1.0,1.5,0.5,1.0
+706,bathrooms,0.5,Wyndham,Hotel room,234.0,4.58,1.0,1.5,0.5,1.0
+707,minimum_nights,1.0,Wyndham,Hotel room,234.0,4.58,1.0,1.5,0.5,1.0
+708,price,0.0,Yarra,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+709,rating,0.0,Yarra,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+710,bedrooms,0.0,Yarra,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+711,beds,0.0,Yarra,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+712,bathrooms,0.0,Yarra,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+713,minimum_nights,0.0,Yarra,Hotel room,0.0,0.0,0.0,0.0,0.0,0.0
+714,price,361.09,Yarra Ranges,Hotel room,361.09,3.43,1.0,1.0,0.55,1.18
+715,rating,3.43,Yarra Ranges,Hotel room,361.09,3.43,1.0,1.0,0.55,1.18
+716,bedrooms,1.0,Yarra Ranges,Hotel room,361.09,3.43,1.0,1.0,0.55,1.18
+717,beds,1.0,Yarra Ranges,Hotel room,361.09,3.43,1.0,1.0,0.55,1.18
+718,bathrooms,0.55,Yarra Ranges,Hotel room,361.09,3.43,1.0,1.0,0.55,1.18
+719,minimum_nights,1.18,Yarra Ranges,Hotel room,361.09,3.43,1.0,1.0,0.55,1.18
