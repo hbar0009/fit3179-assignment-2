@@ -136,11 +136,11 @@
       "scale": {
         "domain": [
           "Entire home/apt",
-          "Hotel room",
           "Private room",
-          "Shared room"
+          "Shared room",
+          "Hotel room"
         ],
-        "range": ["#8a6fdf", "#a8e10c", "#ff5765", "#ffdb15"]
+        "range": ["#8a6fdf", "#ff5765", "#a8e10c", "#ffdb15"]
       }
     },
     "opacity": {
