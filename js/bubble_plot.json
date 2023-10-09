@@ -4,10 +4,10 @@
   "width": 800,
   "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/hbar0009/fit3179-week10-homework/main/data/listings_with_ratings.csv"
+    "url": "https://raw.githubusercontent.com/hbar0009/fit3179-assignment-2/main/data/listings_full.csv"
   },
   "transform": [
-    { "filter": "datum.price < 2500 && datum.price > 0" },
+    { "filter": "datum.price <= 10000 && datum.price > 0" },
     { "filter": "datum.rating > 3" },
     {
       "filter": "neighbourhood_selection == null || datum.neighbourhood == neighbourhood_selection"
