@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Most Expensive Areas to Stay (2023)",
+  "width": 400,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/hbar0009/fit3179-assignment-2/main/data/listings_full.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "neighbourhood",
+      "type": "ordinal",
+      "sort": "-x",
+      "title": "Local Council Area"
+    },
+    "x": {
+      "aggregate": "average",
+      "field": "price",
+      "title": "Average Price per Night (AUD)"
+    }
+  }
+}
