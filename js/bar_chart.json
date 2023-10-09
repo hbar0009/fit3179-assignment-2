@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Most Expensive Areas to Stay (2023)",
+  "title": "Average Airbnb Price per Council (2023)",
   "width": 400,
   "height": 400,
   "data": {
