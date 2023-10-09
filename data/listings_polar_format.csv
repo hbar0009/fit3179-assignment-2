@@ -1,0 +1,25 @@
+id,key,value,category
+0,price,261.61,Entire home/apt
+1,rating,3.35,Entire home/apt
+2,bedrooms,1.73,Entire home/apt
+3,beds,2.14,Entire home/apt
+4,bathrooms,1.1,Entire home/apt
+5,minimum_nights,5.24,Entire home/apt
+6,price,150.73,Private room
+7,rating,2.4,Private room
+8,bedrooms,1.1,Private room
+9,beds,1.13,Private room
+10,bathrooms,0.72,Private room
+11,minimum_nights,5.61,Private room
+12,price,94.0,Shared room
+13,rating,1.64,Shared room
+14,bedrooms,1.01,Shared room
+15,beds,1.68,Shared room
+16,bathrooms,0.63,Shared room
+17,minimum_nights,3.98,Shared room
+18,price,243.19,Hotel room
+19,rating,2.98,Hotel room
+20,bedrooms,1.11,Hotel room
+21,beds,1.29,Hotel room
+22,bathrooms,0.62,Hotel room
+23,minimum_nights,2.15,Hotel room
