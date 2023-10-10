@@ -6,18 +6,58 @@
   "data": {
     "url": "https://raw.githubusercontent.com/hbar0009/fit3179-assignment-2/main/data/listings_full.csv"
   },
-  "mark": "bar",
+  "transform": [
+    {
+      "aggregate": [{ "op": "average", "field": "price", "as": "avg_price" }],
+      "groupby": ["neighbourhood"]
+    }
+  ],
   "encoding": {
     "y": {
       "field": "neighbourhood",
-      "type": "ordinal",
+      "type": "nominal",
       "sort": "-x",
       "title": "Local Council Area"
     },
     "x": {
-      "aggregate": "average",
-      "field": "price",
+      "field": "avg_price",
+      "type": "quantitative",
       "title": "Average Price per Night (AUD)"
     }
-  }
+  },
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "tooltip": [
+          {
+            "type": "nominal",
+            "field": "neighbourhood",
+            "title": "Local Council Area"
+          },
+          {
+            "type": "quantitative",
+            "field": "avg_price",
+            "title": "Average Price per Night (AUD)",
+            "format": "$.2f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 3
+      },
+      "encoding": {
+        "text": {
+          "field": "avg_price",
+          "type": "quantitative",
+          "format": "$.3s"
+        }
+      }
+    }
+  ]
 }
