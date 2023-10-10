@@ -26,7 +26,7 @@
       "bind": {
         "input": "range",
         "min": 0,
-        "max": 1000,
+        "max": 100,
         "name": "Minimum Number of Reviews"
       }
     },
