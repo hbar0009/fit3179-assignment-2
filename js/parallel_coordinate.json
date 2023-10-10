@@ -1,6 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Though Vega-Lite supports only one scale per axes, one can create a parallel coordinate plot by folding variables, using `joinaggregate` to normalize their values and using ticks and rules to manually create axes.",
+  "title": "Average Properties of Greater Melbourne Airbnb Listings (2023)",
+  "width": 600,
+  "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/hbar0009/fit3179-assignment-2/main/data/listings_parallel_format.csv",
     "format": {
@@ -17,9 +19,33 @@
       }
     }
   },
-  "width": 600,
-  "height": 300,
+  "params": [
+    {
+      "name": "room_type_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Entire home/apt",
+          "Private room",
+          "Shared room",
+          "Hotel room"
+        ],
+        "labels": [
+          "All types",
+          "Entire home/apt",
+          "Private room",
+          "Shared room",
+          "Hotel room"
+        ],
+        "name": "Room Type Selection: "
+      }
+    }
+  ],
   "transform": [
+    {
+      "filter": "room_type_selection == null || datum['Room Type'] == room_type_selection"
+    },
     { "filter": "datum.Bathrooms > 0" },
     { "filter": "datum.Bedrooms > 0" },
     { "filter": "datum.Beds > 0" },
@@ -89,7 +115,7 @@
           "legend": { "symbolOpacity": 1 }
         },
         "detail": { "type": "nominal", "field": "index" },
-        "opacity": { "value": 0.25 },
+        "opacity": { "value": 0.4 },
         "x": {
           "type": "nominal",
           "field": "key",
