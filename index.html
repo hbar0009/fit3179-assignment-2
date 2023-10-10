@@ -13,25 +13,33 @@
     <div id="airbnb_map"></div>
     <div id="bubble_plot"></div>
     <div id="bar_chart"></div>
+    <div id="parallel_coordinate"></div>
 
     <script type="text/javascript">
       const spec1 = "./js/airbnb_map.json";
       const spec2 = "./js/bubble_plot.json";
       const spec3 = "./js/bar_chart.json";
+      const spec4 = "./js/parallel_coordinate.json";
 
-      vegaEmbed("#airbnb_map", spec1)
+      vegaEmbed("#airbnb_map", spec1, { actions: false })
         .then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         })
         .catch(console.error);
 
-      vegaEmbed("#bubble_plot", spec2)
+      vegaEmbed("#bubble_plot", spec2, { actions: false })
         .then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         })
         .catch(console.error);
 
-      vegaEmbed("#bar_chart", spec3)
+      vegaEmbed("#bar_chart", spec3, { actions: false })
+        .then(function (result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+
+      vegaEmbed("#parallel_coordinate", spec4, { actions: false })
         .then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         })
