@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Average Airbnb Price per Council (2023)",
+  "title": "Average Airbnb Price per Local Council Area (2023)",
   "width": 400,
   "height": 400,
   "data": {
@@ -8,8 +8,26 @@
   },
   "transform": [
     {
-      "aggregate": [{ "op": "average", "field": "price", "as": "avg_price" }],
+      "aggregate": [
+        { "op": "average", "field": "price", "as": "avg_price" },
+        { "op": "count", "field": "id", "as": "num_listings" },
+        { "op": "average", "field": "rating", "as": "avg_rating" }
+      ],
       "groupby": ["neighbourhood"]
+    },
+    {
+      "lookup": "neighbourhood",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/hbar0009/fit3179-assignment-2/main/data/listings_and_dwellings.csv"
+        },
+        "key": "neighbourhood",
+        "fields": ["dwellings"]
+      }
+    },
+    {
+      "calculate": "datum.num_listings/datum.dwellings * 10000",
+      "as": "Listings per 10,000 Dwellings"
     }
   ],
   "encoding": {
@@ -29,6 +47,15 @@
     {
       "mark": "bar",
       "encoding": {
+        "color": {
+          "field": "avg_rating",
+          "title": "Average Rating",
+          "type": "quantitative",
+          "scale": { "scheme": "orangered" },
+          "legend": {
+            "offset": 25
+          }
+        },
         "tooltip": [
           {
             "type": "nominal",
@@ -40,6 +67,17 @@
             "field": "avg_price",
             "title": "Average Price per Night (AUD)",
             "format": "$.2f"
+          },
+          {
+            "type": "quantitative",
+            "field": "avg_rating",
+            "title": "Average Rating (out of 5 stars)",
+            "format": ".2f"
+          },
+          {
+            "type": "quantitative",
+            "field": "Listings per 10,000 Dwellings",
+            "format": ".2f"
           }
         ]
       }
