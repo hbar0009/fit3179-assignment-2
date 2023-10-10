@@ -2,7 +2,20 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Though Vega-Lite supports only one scale per axes, one can create a parallel coordinate plot by folding variables, using `joinaggregate` to normalize their values and using ticks and rules to manually create axes.",
   "data": {
-    "url": "https://raw.githubusercontent.com/hbar0009/fit3179-assignment-2/main/data/listings_parallel_format.csv"
+    "url": "https://raw.githubusercontent.com/hbar0009/fit3179-assignment-2/main/data/listings_parallel_format.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "Local Council Area": "string",
+        "Room Type": "string",
+        "Price": "number",
+        "Rating": "number",
+        "Bedrooms": "number",
+        "Beds": "number",
+        "Bathrooms": "number",
+        "Minimum Nights": "number"
+      }
+    }
   },
   "width": 600,
   "height": 300,
@@ -12,8 +25,18 @@
     { "filter": "datum.Beds > 0" },
     { "filter": "datum['Minimum Nights'] > 0" },
     { "filter": "datum.Rating > 0" },
+    { "filter": "datum.Price > 0" },
     { "window": [{ "op": "count", "as": "index" }] },
-    { "fold": ["Rating", "Bedrooms", "Beds", "Bathrooms", "Minimum Nights"] },
+    {
+      "fold": [
+        "Price",
+        "Rating",
+        "Bedrooms",
+        "Beds",
+        "Bathrooms",
+        "Minimum Nights"
+      ]
+    },
     {
       "joinaggregate": [
         { "op": "min", "field": "value", "as": "min" },
@@ -22,7 +45,7 @@
       "groupby": ["key"]
     },
     {
-      "calculate": "(datum.value - datum.min) / (datum.max-datum.min)",
+      "calculate": "(toNumber(datum.value) - toNumber(datum.min)) / (toNumber(datum.max)-toNumber(datum.min))",
       "as": "norm_val"
     },
     {
@@ -35,7 +58,17 @@
       "mark": { "type": "rule", "color": "#ccc" },
       "encoding": {
         "detail": { "aggregate": "count" },
-        "x": { "field": "key" }
+        "x": {
+          "field": "key",
+          "sort": [
+            "Bedrooms",
+            "Beds",
+            "Bathrooms",
+            "Rating",
+            "Price",
+            "Minimum Nights"
+          ]
+        }
       }
     },
     {
@@ -53,29 +86,73 @@
             ],
             "range": ["#8a6fdf", "#ff5765", "#a8e10c", "#ffdb15"]
           },
-          "legend": {
-            "symbolOpacity": 1
-          }
+          "legend": { "symbolOpacity": 1 }
         },
         "detail": { "type": "nominal", "field": "index" },
-        "opacity": { "value": 0.1 },
-        "x": { "type": "nominal", "field": "key" },
+        "opacity": { "value": 0.25 },
+        "x": {
+          "type": "nominal",
+          "field": "key",
+          "sort": [
+            "Bedrooms",
+            "Beds",
+            "Bathrooms",
+            "Rating",
+            "Price",
+            "Minimum Nights"
+          ]
+        },
         "y": { "type": "quantitative", "field": "norm_val", "axis": null },
         "tooltip": [
           { "type": "nominal", "field": "Room Type" },
           { "type": "nominal", "field": "Local Council Area" },
-          { "type": "quantitative", "field": "Price" },
-          { "type": "quantitative", "field": "Rating" },
-          { "type": "quantitative", "field": "Bedrooms" },
-          { "type": "quantitative", "field": "Beds" },
-          { "type": "quantitative", "field": "Bathrooms" },
-          { "type": "quantitative", "field": "Minimum Nights" }
+          {
+            "type": "quantitative",
+            "field": "Price",
+            "title": "Average Price"
+          },
+          {
+            "type": "quantitative",
+            "field": "Rating",
+            "title": "Average Rating"
+          },
+          {
+            "type": "quantitative",
+            "field": "Bedrooms",
+            "title": "Average Number of Bedrooms"
+          },
+          {
+            "type": "quantitative",
+            "field": "Beds",
+            "title": "Average Number of Beds"
+          },
+          {
+            "type": "quantitative",
+            "field": "Bathrooms",
+            "title": "Average Number of Bathrooms"
+          },
+          {
+            "type": "quantitative",
+            "field": "Minimum Nights",
+            "title": "Average Minimum Number of Nights"
+          }
         ]
       }
     },
     {
       "encoding": {
-        "x": { "type": "nominal", "field": "key" },
+        "x": {
+          "type": "nominal",
+          "field": "key",
+          "sort": [
+            "Bedrooms",
+            "Beds",
+            "Bathrooms",
+            "Rating",
+            "Price",
+            "Minimum Nights"
+          ]
+        },
         "y": { "value": 0 }
       },
       "layer": [
@@ -95,7 +172,18 @@
     },
     {
       "encoding": {
-        "x": { "type": "nominal", "field": "key" },
+        "x": {
+          "type": "nominal",
+          "field": "key",
+          "sort": [
+            "Bedrooms",
+            "Beds",
+            "Bathrooms",
+            "Rating",
+            "Price",
+            "Minimum Nights"
+          ]
+        },
         "y": { "value": 150 }
       },
       "layer": [
@@ -115,7 +203,18 @@
     },
     {
       "encoding": {
-        "x": { "type": "nominal", "field": "key" },
+        "x": {
+          "type": "nominal",
+          "field": "key",
+          "sort": [
+            "Bedrooms",
+            "Beds",
+            "Bathrooms",
+            "Rating",
+            "Price",
+            "Minimum Nights"
+          ]
+        },
         "y": { "value": 300 }
       },
       "layer": [
