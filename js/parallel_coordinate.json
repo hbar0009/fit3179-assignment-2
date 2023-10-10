@@ -1,0 +1,150 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Though Vega-Lite supports only one scale per axes, one can create a parallel coordinate plot by folding variables, using `joinaggregate` to normalize their values and using ticks and rules to manually create axes.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/hbar0009/fit3179-assignment-2/main/data/listings_parallel_format.csv"
+  },
+  "width": 600,
+  "height": 300,
+  "transform": [
+    { "filter": "datum.Bathrooms > 0" },
+    { "filter": "datum.Bedrooms > 0" },
+    { "filter": "datum.Beds > 0" },
+    { "filter": "datum['Minimum Nights'] > 0" },
+    { "filter": "datum.Rating > 0" },
+    { "window": [{ "op": "count", "as": "index" }] },
+    { "fold": ["Rating", "Bedrooms", "Beds", "Bathrooms", "Minimum Nights"] },
+    {
+      "joinaggregate": [
+        { "op": "min", "field": "value", "as": "min" },
+        { "op": "max", "field": "value", "as": "max" }
+      ],
+      "groupby": ["key"]
+    },
+    {
+      "calculate": "(datum.value - datum.min) / (datum.max-datum.min)",
+      "as": "norm_val"
+    },
+    {
+      "calculate": "(toNumber(datum.min) + toNumber(datum.max)) / 2",
+      "as": "mid"
+    }
+  ],
+  "layer": [
+    {
+      "mark": { "type": "rule", "color": "#ccc" },
+      "encoding": {
+        "detail": { "aggregate": "count" },
+        "x": { "field": "key" }
+      }
+    },
+    {
+      "mark": "line",
+      "encoding": {
+        "color": {
+          "type": "nominal",
+          "field": "Room Type",
+          "scale": {
+            "domain": [
+              "Entire home/apt",
+              "Private room",
+              "Shared room",
+              "Hotel room"
+            ],
+            "range": ["#8a6fdf", "#ff5765", "#a8e10c", "#ffdb15"]
+          },
+          "legend": {
+            "symbolOpacity": 1
+          }
+        },
+        "detail": { "type": "nominal", "field": "index" },
+        "opacity": { "value": 0.1 },
+        "x": { "type": "nominal", "field": "key" },
+        "y": { "type": "quantitative", "field": "norm_val", "axis": null },
+        "tooltip": [
+          { "type": "nominal", "field": "Room Type" },
+          { "type": "nominal", "field": "Local Council Area" },
+          { "type": "quantitative", "field": "Price" },
+          { "type": "quantitative", "field": "Rating" },
+          { "type": "quantitative", "field": "Bedrooms" },
+          { "type": "quantitative", "field": "Beds" },
+          { "type": "quantitative", "field": "Bathrooms" },
+          { "type": "quantitative", "field": "Minimum Nights" }
+        ]
+      }
+    },
+    {
+      "encoding": {
+        "x": { "type": "nominal", "field": "key" },
+        "y": { "value": 0 }
+      },
+      "layer": [
+        {
+          "mark": { "type": "text", "style": "label" },
+          "encoding": { "text": { "aggregate": "max", "field": "max" } }
+        },
+        {
+          "mark": {
+            "type": "tick",
+            "style": "tick",
+            "size": 8,
+            "color": "#ccc"
+          }
+        }
+      ]
+    },
+    {
+      "encoding": {
+        "x": { "type": "nominal", "field": "key" },
+        "y": { "value": 150 }
+      },
+      "layer": [
+        {
+          "mark": { "type": "text", "style": "label" },
+          "encoding": { "text": { "aggregate": "min", "field": "mid" } }
+        },
+        {
+          "mark": {
+            "type": "tick",
+            "style": "tick",
+            "size": 8,
+            "color": "#ccc"
+          }
+        }
+      ]
+    },
+    {
+      "encoding": {
+        "x": { "type": "nominal", "field": "key" },
+        "y": { "value": 300 }
+      },
+      "layer": [
+        {
+          "mark": { "type": "text", "style": "label" },
+          "encoding": { "text": { "aggregate": "min", "field": "min" } }
+        },
+        {
+          "mark": {
+            "type": "tick",
+            "style": "tick",
+            "size": 8,
+            "color": "#ccc"
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "axisX": {
+      "domain": false,
+      "labelAngle": 0,
+      "tickColor": "#ccc",
+      "title": null
+    },
+    "view": { "stroke": null },
+    "style": {
+      "label": { "baseline": "middle", "align": "right", "dx": -5 },
+      "tick": { "orient": "horizontal" }
+    }
+  }
+}
