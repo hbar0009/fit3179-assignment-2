@@ -14,12 +14,14 @@
     <div id="bubble_plot"></div>
     <div id="bar_chart"></div>
     <div id="parallel_coordinate"></div>
+    <div id="pie_chart"></div>
 
     <script type="text/javascript">
       const spec1 = "./js/airbnb_map.json";
       const spec2 = "./js/bubble_plot.json";
       const spec3 = "./js/bar_chart.json";
       const spec4 = "./js/parallel_coordinate.json";
+      const spec5 = "./js/pie_chart.json";
 
       vegaEmbed("#airbnb_map", spec1, { actions: false })
         .then(function (result) {
@@ -40,6 +42,12 @@
         .catch(console.error);
 
       vegaEmbed("#parallel_coordinate", spec4, { actions: false })
+        .then(function (result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+
+      vegaEmbed("#pie_chart", spec5, { actions: false })
         .then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         })
