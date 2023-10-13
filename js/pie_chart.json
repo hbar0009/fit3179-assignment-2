@@ -125,6 +125,11 @@
       "mark": { "type": "arc", "tooltip": true, "outerRadius": 170 },
       "encoding": {
         "tooltip": [
+          {
+            "field": "neighbourhood",
+            "type": "nominal",
+            "title": "Local Council Area"
+          },
           { "field": "room_type", "type": "nominal", "title": "Room Type" },
           {
             "field": "% of Total Listings",
