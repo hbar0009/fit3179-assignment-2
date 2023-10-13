@@ -1,0 +1,153 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "% of Airbnb Types per Local Council Area (2023)",
+  "width": 500,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/hbar0009/fit3179-assignment-2/main/data/listings_full.csv"
+  },
+  "transform": [
+    {
+      "joinaggregate": [
+        { "op": "count", "field": "id", "as": "total_listings" }
+      ],
+      "groupby": ["neighbourhood"]
+    },
+    {
+      "aggregate": [{ "op": "count", "field": "id", "as": "num_listings" }],
+      "groupby": ["neighbourhood", "room_type", "total_listings"]
+    },
+    {
+      "calculate": "datum.num_listings / datum.total_listings",
+      "as": "% of Total Listings"
+    },
+    {
+      "filter": "neighbourhood_selection == null || datum.neighbourhood == neighbourhood_selection"
+    }
+  ],
+  "params": [
+    {
+      "name": "neighbourhood_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Banyule",
+          "Bayside",
+          "Boroondara",
+          "Brimbank",
+          "Cardinia",
+          "Casey",
+          "Darebin",
+          "Frankston",
+          "Glen Eira",
+          "Greater Dandenong",
+          "Hobsons Bay",
+          "Hume",
+          "Kingston",
+          "Knox",
+          "Manningham",
+          "Maribyrnong",
+          "Maroondah",
+          "Melbourne",
+          "Melton",
+          "Monash",
+          "Moonee Valley",
+          "Moreland",
+          "Nillumbik",
+          "Port Phillip",
+          "Stonnington",
+          "Whitehorse",
+          "Whittlesea",
+          "Wyndham",
+          "Yarra",
+          "Yarra Ranges"
+        ],
+        "labels": [
+          "Banyule",
+          "Bayside",
+          "Boroondara",
+          "Brimbank",
+          "Cardinia",
+          "Casey",
+          "Darebin",
+          "Frankston",
+          "Glen Eira",
+          "Greater Dandenong",
+          "Hobsons Bay",
+          "Hume",
+          "Kingston",
+          "Knox",
+          "Manningham",
+          "Maribyrnong",
+          "Maroondah",
+          "Melbourne",
+          "Melton",
+          "Monash",
+          "Moonee Valley",
+          "Moreland",
+          "Nillumbik",
+          "Port Phillip",
+          "Stonnington",
+          "Whitehorse",
+          "Whittlesea",
+          "Wyndham",
+          "Yarra",
+          "Yarra Ranges"
+        ],
+        "name": "Area Selection: "
+      },
+      "value": "Melbourne"
+    }
+  ],
+  "encoding": {
+    "theta": {
+      "field": "% of Total Listings",
+      "type": "quantitative",
+      "stack": "normalize"
+    },
+    "color": {
+      "field": "room_type",
+      "title": "Room Type",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Entire home/apt",
+          "Private room",
+          "Shared room",
+          "Hotel room"
+        ],
+        "range": ["#8a6fdf", "#ff5765", "#a8e10c", "#ffdb15"]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": { "type": "arc", "tooltip": true, "outerRadius": 170 },
+      "encoding": {
+        "tooltip": [
+          { "field": "room_type", "type": "nominal", "title": "Room Type" },
+          {
+            "field": "% of Total Listings",
+            "type": "quantitative",
+            "format": ".2%"
+          },
+          {
+            "field": "num_listings",
+            "type": "quantitative",
+            "title": "Number of Listings"
+          }
+        ]
+      }
+    },
+    {
+      "mark": { "type": "text", "radius": 190 },
+      "encoding": {
+        "text": {
+          "field": "% of Total Listings",
+          "type": "quantitative",
+          "format": ".2%"
+        }
+      }
+    }
+  ]
+}
