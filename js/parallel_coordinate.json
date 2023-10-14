@@ -135,7 +135,8 @@
           {
             "type": "quantitative",
             "field": "Price",
-            "title": "Average Price"
+            "title": "Average Price",
+            "format": "$,"
           },
           {
             "type": "quantitative",
