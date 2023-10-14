@@ -53,12 +53,14 @@
           {
             "field": "listings",
             "type": "quantitative",
-            "title": "Number of Listings"
+            "title": "Number of Listings",
+            "format": ","
           },
           {
             "field": "dwellings",
             "type": "quantitative",
-            "title": "Number of Dwellings"
+            "title": "Number of Dwellings",
+            "format": ","
           },
           {
             "field": "Listings per 10,000 Dwellings",
