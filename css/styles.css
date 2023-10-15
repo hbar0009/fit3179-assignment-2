@@ -80,6 +80,8 @@ h1 {
   color: var(--yellow);
 }
 
-.vega-bindings {
+.vega-bind {
   font-size: 11px;
+  padding-top: 10px;
+  padding-left: 40px;
 }
