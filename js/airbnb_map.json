@@ -75,7 +75,7 @@
             "field": "Listings per 10,000 Dwellings",
             "type": "quantitative",
             "title": "Listings per 10,000 Dwellings",
-            "format": ".0f"
+            "format": ".2f"
           }
         ]
       }
