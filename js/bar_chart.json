@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Average Airbnb Price per Local Council Area (2023)",
+  "title": "Average Price per Local Council Area (2023)",
   "width": "container",
-  "height": 400,
+  "height": 412,
   "data": {
     "url": "https://raw.githubusercontent.com/hbar0009/fit3179-assignment-2/main/data/listings_full.csv"
   },
