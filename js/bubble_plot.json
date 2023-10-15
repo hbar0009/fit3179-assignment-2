@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Rating of Airbnbs in Greater Melbourne (2023)",
+  "title": "Rating vs Price of Airbnbs in Greater Melbourne (2023)",
   "width": "container",
   "height": 400,
   "data": {
