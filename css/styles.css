@@ -68,3 +68,7 @@ h1 {
 .green-text {
   color: var(--green);
 }
+
+.vega-bindings {
+  font-size: 11px;
+}
