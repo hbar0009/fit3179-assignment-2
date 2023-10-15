@@ -27,7 +27,7 @@
         "input": "range",
         "min": 0,
         "max": 100,
-        "name": "Minimum Number of Reviews"
+        "name": "Filter by Minimum Number of Reviews: "
       }
     },
     {
@@ -100,7 +100,7 @@
           "Yarra",
           "Yarra Ranges"
         ],
-        "name": "Area Selection: "
+        "name": "Filter by Area: "
       },
       "value": "Monash"
     }
