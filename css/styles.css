@@ -6,7 +6,10 @@ https://github.com/FIT3179/Vega-Lite/tree/main/5_multiple_charts_html
 
 :root {
   --pink: #ff5a5f;
-  --green: #00a699;
+  --purple: #a75aff;
+  --green: #a8e10c;
+  --aqua: #00a699;
+  --yellow: #ffdb15;
   --orange: #fc642d;
   --dark-gray: #484848;
   --gray: #767676;
@@ -26,7 +29,7 @@ body {
 
 .page {
   width: 850px;
-  background-color: white;
+  background-color: whitesmoke;
   margin: auto;
   padding: 50px;
   padding-top: 35px;
@@ -67,6 +70,14 @@ h1 {
 
 .green-text {
   color: var(--green);
+}
+
+.purple-text {
+  color: var(--purple);
+}
+
+.yellow-text {
+  color: var(--yellow);
 }
 
 .vega-bindings {
