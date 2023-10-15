@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": ["Percentage of Airbnb Types", "per Local Council Area (2023)"],
+  "title": ["Percentage of Airbnb Room Types", "per Local Council Area (2023)"],
   "width": "container",
   "height": 200,
   "data": {
