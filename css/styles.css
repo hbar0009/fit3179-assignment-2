@@ -1,8 +1,16 @@
 /* 
 Disclaimer: Much of this code was adapted from that provided in the FIT3179 
 week 9 studio, available at:
-https://github.com/FIT3179/Vega-Lite/blob/main/5_multiple_charts_html/index.html 
+https://github.com/FIT3179/Vega-Lite/tree/main/5_multiple_charts_html 
 */
+
+:root {
+  --pink: #ff5a5f;
+  --green: #00a699;
+  --orange: #fc642d;
+  --dark: #484848;
+  --light: #767676;
+}
 
 body * {
   font-family: "Poppins", sans-serif;
@@ -47,4 +55,16 @@ h1 {
 
 .small-font {
   font-size: 14px;
+}
+
+.pink-text {
+  color: var(--pink);
+}
+
+.orange-text {
+  color: var(--orange);
+}
+
+.green-text {
+  color: var(--green);
 }
