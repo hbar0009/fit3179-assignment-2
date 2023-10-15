@@ -51,7 +51,10 @@
           "field": "avg_rating",
           "title": "Average Rating",
           "type": "quantitative",
-          "scale": { "scheme": "orangered" },
+          "scale": {
+            "type": "linear",
+            "range": ["#ffbdbf", "#e65156"]
+          },
           "legend": {
             "offset": 25
           }

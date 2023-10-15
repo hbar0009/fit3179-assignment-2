@@ -42,7 +42,15 @@
           "scale": {
             "type": "threshold",
             "domain": [30, 50, 100, 200, 500],
-            "scheme": "orangered"
+
+            "range": [
+              "#ffdedf",
+              "#ffbdbf",
+              "#ff9c9f",
+              "#ff7b7f",
+              "#ff5a5f",
+              "#cc484c"
+            ]
           }
         },
         "tooltip": [
