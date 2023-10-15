@@ -1,53 +1,98 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- 
+    Disclaimer: Much of this code was adapted from that provided in the FIT3179 
+    week 9 studio, available at:
+    https://github.com/FIT3179/Vega-Lite/tree/main/5_multiple_charts_html
+    -->
+
     <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.12.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.22.1"></script>
 
+    <!-- Import pure.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+      integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins"
+      rel="stylesheet"
+    />
+
     <!-- CSS file -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
   </head>
+
   <body>
-    <div id="airbnb_map"></div>
-    <div id="bubble_plot"></div>
-    <div id="bar_chart"></div>
-    <div id="parallel_coordinate"></div>
-    <div id="pie_chart"></div>
+    <div class="page">
+      <!-- pure grid group -->
+      <div class="pure-g">
+        <div class="pure-u-1-1">
+          <h1>
+            <span class="pink-text">Airbnb</span> in the Greater Melbourne Area
+          </h1>
+          <p>
+            This page demonstrates how you can use pure.css grid for your
+            layout.
+          </p>
+        </div>
+      </div>
+      <!-- end pure grid group -->
+
+      <div id="airbnb_map" class="vis-container"></div>
+      <div id="bubble_plot" class="vis-container"></div>
+      <div id="bar_chart" class="vis-container"></div>
+      <div id="parallel_coordinate" class="vis-container"></div>
+      <div id="pie_chart" class="vis-container"></div>
+    </div>
 
     <script type="text/javascript">
-      const spec1 = "./js/airbnb_map.json";
-      const spec2 = "./js/bubble_plot.json";
-      const spec3 = "./js/bar_chart.json";
-      const spec4 = "./js/parallel_coordinate.json";
-      const spec5 = "./js/pie_chart.json";
+      const spec1 = "js/airbnb_map.json";
+      const spec2 = "js/bubble_plot.json";
+      const spec3 = "js/bar_chart.json";
+      const spec4 = "js/parallel_coordinate.json";
+      const spec5 = "js/pie_chart.json";
 
-      vegaEmbed("#airbnb_map", spec1, { actions: false })
+      const opt = {
+        config: "js/config_common.json",
+        actions: false,
+      };
+
+      vegaEmbed("#airbnb_map", spec1, opt)
         .then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         })
         .catch(console.error);
 
-      vegaEmbed("#bubble_plot", spec2, { actions: false })
+      vegaEmbed("#bubble_plot", spec2, opt)
         .then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         })
         .catch(console.error);
 
-      vegaEmbed("#bar_chart", spec3, { actions: false })
+      vegaEmbed("#bar_chart", spec3, opt)
         .then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         })
         .catch(console.error);
 
-      vegaEmbed("#parallel_coordinate", spec4, { actions: false })
+      vegaEmbed("#parallel_coordinate", spec4, opt)
         .then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         })
         .catch(console.error);
 
-      vegaEmbed("#pie_chart", spec5, { actions: false })
+      vegaEmbed("#pie_chart", spec5, opt)
         .then(function (result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         })
