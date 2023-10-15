@@ -110,7 +110,7 @@
               "Shared room",
               "Hotel room"
             ],
-            "range": ["#8a6fdf", "#ff5765", "#a8e10c", "#ffdb15"]
+            "range": ["#8a6fdf", "#ff5a5f", "#a8e10c", "#ffdb15"]
           },
           "legend": { "symbolOpacity": 1 }
         },
