@@ -21,6 +21,7 @@ body * {
 
 h1 {
   font-weight: 900;
+  font-size: 35px;
 }
 
 body {
@@ -63,8 +64,8 @@ body {
 
 .subheading {
   text-align: justify;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .centered-text {
