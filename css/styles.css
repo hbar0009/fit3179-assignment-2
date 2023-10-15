@@ -33,6 +33,7 @@ body {
   margin: auto;
   padding: 50px;
   padding-top: 35px;
+  padding-bottom: 10px;
 }
 
 .vis-container {
@@ -54,6 +55,14 @@ h1 {
 
 .pure-g {
   margin-bottom: 40px;
+}
+
+.footnote {
+  margin-bottom: 10px;
+}
+
+.centered-text {
+  text-align: center;
 }
 
 .small-font {
